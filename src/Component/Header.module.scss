@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.menu {
+  color: rgb(37, 26, 77);
+  font-size: 25px;
+}
+
+.dark {
+  font-size: 23px;
+}
+
+.BoxMenu {
+  display: flex;
+  flex-direction: row;
+}
+
+.select {
+  margin-left: 15px;
+}
