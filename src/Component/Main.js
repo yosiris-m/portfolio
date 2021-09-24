@@ -1,10 +1,11 @@
 import styles from "./Main.module.scss";
 import photo from "../images/yosi_photo.jpg";
-import Projects from "./Projects";
+import ProjectList from "./ProjectList";
+import Technology from "./Technology";
 
-function Main() {
+function Main({ projectsList }) {
   return (
-    <main>
+    <main className={styles.main}>
       <section className={styles.mainBox}>
         <h4 className={styles.title}>Hola mundo!</h4>
         <div>
@@ -17,17 +18,17 @@ function Main() {
         </p>
       </section>
       <section className={styles.descriptionBox}>
-        <h4>Front-end Developer</h4>
-        <p>
-          Soy una persona que le encanta aprender y descubrir 🚀 cosas nuevas
+        <span className={styles.job}>Front-end Developer</span>
+        <p className={styles.description}>
+          Soy una persona que le encanta aprender y descubrir 🚀 cosas nuevas.
         </p>
-        <p>
+        <p className={styles.description}>
           Estoy buscando mi primera oportunidad en el el sector IT como Front
           End Developer.
         </p>
 
-        <Projects />
-        <h5>TECNOLOGÍAS</h5>
+        <ProjectList projectList={projectsList} />
+        <Technology />
 
         {/* <p>
           y
@@ -39,8 +40,6 @@ function Main() {
           decidido dar un cambio, reinventarme y hacer lo que me gusta "
           programar".
         </p> */}
-        <p></p>
-        <p></p>
       </section>
     </main>
   );

@@ -1,3 +1,6 @@
+@import "../styles/core/variables";
+@import "../styles/core/mixins";
+
 .boxImages {
   display: flex;
   flex-direction: column;
@@ -7,12 +10,11 @@
   height: 50%;
   width: 50%;
   line-height: 20px;
-  border-radius: 5px;
   align-items: center;
 }
 
-.imgArchiteture {
-  height: 35vh;
+.container {
+  height: 50%;
   width: 50%;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.726);
@@ -22,21 +24,34 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 6px 4px #bea5a5;
+  @include bg-boxShadowImg;
+  @media all and (min-width: 1200px) {
+    height: 25%;
+    width: 18%;
+  }
 }
 
 .title {
   font-size: 1rem;
-  // font-family: "Jost", sans-serif;
-  font-family: "Montserrat", sans-serif;
-  // font-family: "Nunito", sans-serif;
-  // font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-title;
 }
 
 .subTitle {
   font-size: 0.9rem;
-  // font-family: "Jost", sans-serif;
-  // font-family: "Montserrat", sans-serif;
   font-family: "Nunito", sans-serif;
-  // font-family: "Source Sans Pro", sans-serif;
+}
+
+.codeBox {
+  text-decoration: none;
+}
+
+.codeGit {
+  margin-right: 5rem;
+  font-size: 1.03rem;
+  color: $colorLink;
+}
+
+.codePage {
+  color: $colorLink;
+  font-size: 0.8rem;
 }
