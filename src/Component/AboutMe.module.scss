@@ -1,0 +1,16 @@
+@import "../styles/core/variables";
+.photo {
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 4px #bea5a5;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  margin: 20px 0;
+  font-size: 25px;
+  font-family: $font-title;
+}

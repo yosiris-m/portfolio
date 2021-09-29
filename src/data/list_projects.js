@@ -1,6 +1,6 @@
 import architecture from "../images/architecture_app.png";
 import familyCash from "../images/family_app.png";
-import series from "../images/Buscador_series.png";
+import series from "../images/buscador_serie.png";
 import card from "../images/card.png";
 import maquetacion from "../images/maquetacion_web.png";
 import planet from "../images/planet_express.png";
@@ -27,30 +27,30 @@ const projectsList = [
   },
   {
     id: 3,
-    title: "PlaneExpress",
-    description:
-      "Buscador de articulos de la serie planet express donde puedes añadir articulos a la cesta, ver los detalles y un temporizador para las ofertas, realizado con React.",
-    urlGit: "https://github.com/yosiris-m/enthec_planetExpress_app",
-    urlPage: "https://yosiris-m.github.io/enthec_planetExpress_app/",
-    img: planet,
-  },
-  {
-    id: 4,
     title: "Card profile",
     description:
-      "Proyecto de equipo refactorización de codigo con el que puedes crear, personalizar y enviar tarjetas de presentación.",
+      "Proyecto de equipo, refactorización de codigo con el que puedes crear, personalizar y enviar tarjetas de presentación.",
     urlGit: "https://github.com/yosiris-m/project-promo-m-module-3-team5",
     urlPage: "https://vegandebuggers.herokuapp.com/#/card",
     img: card,
   },
   {
-    id: 5,
+    id: 4,
     title: "Rick and Morty",
     description:
       "Buscador de personajes de la serie rick and morty, permite filtrar y ver con detalle cada personaje, realizado con React.",
     urlGit: "https://github.com/yosiris-m/characters-Rick-And-Morty",
     urlPage: "https://yosiris-m.github.io/characters-Rick-And-Morty/#/",
     img: rickMorty,
+  },
+  {
+    id: 5,
+    title: "PlaneExpress",
+    description:
+      "Buscador de articulos de la serie planet express donde puedes añadir articulos a la cesta, ver los detalles y un temporizador para las ofertas, realizado con React.",
+    urlGit: "https://github.com/yosiris-m/enthec_planetExpress_app",
+    urlPage: "https://yosiris-m.github.io/enthec_planetExpress_app/",
+    img: planet,
   },
   {
     id: 6,

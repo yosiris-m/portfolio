@@ -2,6 +2,7 @@ import styles from "./Main.module.scss";
 import photo from "../images/yosi_photo.jpg";
 import ProjectList from "./ProjectList";
 import Technology from "./Technology";
+import AboutMe from "./AboutMe";
 
 function Main({ projectsList }) {
   return (
@@ -41,6 +42,7 @@ function Main({ projectsList }) {
           programar".
         </p> */}
       </section>
+      <AboutMe />
     </main>
   );
 }

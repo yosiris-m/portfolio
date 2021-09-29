@@ -1,19 +1,29 @@
 @import "../styles/core/variables";
 
 .header {
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding-top: 40px;
 }
 
 .menu {
   color: rgb(37, 26, 77);
-  font-size: 25px;
+  position: fixed;
+  top: 10px;
+  left: 50px;
+  // position: absolute;
+  z-index: 1;
+  // left: 42%;
+  text-align: center;
+  // padding-right: 50px;
 }
 
-.dark {
-  font-size: 23px;
+// .dark {
+//   font-size: 23px;
+// }
+
+.boxMenu {
+  text-align: center;
 }
 
 .BoxMenu {
@@ -23,4 +33,32 @@
 
 .select {
   margin-left: 15px;
+}
+
+.option {
+  display: none;
+  text-align: center;
+}
+
+input:checked ~ ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  display: none;
+}
+
+li {
+  display: block;
+  background: lightgrey;
+  line-height: 35px;
+  list-style: none;
+  border-bottom: 0.1px solid grey;
+  cursor: pointer;
+}
+
+li:hover {
+  filter: brightness(110%);
 }

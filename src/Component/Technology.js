@@ -2,7 +2,7 @@ import styles from "../Component/Technology.module.scss";
 function Technology() {
   return (
     <div>
-      <h5>TECNOLOGÍAS</h5>
+      <h5 id="tools">TECNOLOGÍAS</h5>
       <div className={styles.box} align="left">
         <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
           <img
@@ -64,14 +64,7 @@ function Technology() {
             className={styles.BoxSiZe}
           />
         </a>
-        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-          {" "}
-          <img
-            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-            alt="mongodb"
-            className={styles.BoxSiZe}
-          />
-        </a>
+
         <a
           href="https://www.microsoft.com/en-us/sql-server"
           target="_blank"
