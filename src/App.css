@@ -1,5 +1,9 @@
-
+/* html {
+  scroll-behavior: smooth;
+} */
 
 .body {
   background-color: rgb(241, 232, 220);
+  
+
 }

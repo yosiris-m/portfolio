@@ -3,10 +3,18 @@ import photo from "../images/yosi_photo.jpg";
 import ProjectList from "./ProjectList";
 import Technology from "./Technology";
 import AboutMe from "./AboutMe";
+import InputSwitch from "./InputSwitch";
+// import React, { useState } from "react";
 
 function Main({ projectsList }) {
+  // const [isToggled, setIsToggled] = useState(false);
   return (
     <main className={styles.main}>
+      {/* <InputSwitch
+        rounded={true}
+        isToggled={isToggled}
+        onToggled={() => setIsToggled(!isToggled)}
+      /> */}
       <section className={styles.mainBox}>
         <h4 className={styles.title}>Hola mundo!</h4>
         <div>

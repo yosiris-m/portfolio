@@ -104,13 +104,13 @@ function Technology() {
             className={styles.BoxSiZe}
           />
         </a>
-        <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
+        {/* <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
             alt="sass"
             className={styles.BoxSiZe}
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );

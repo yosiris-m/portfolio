@@ -17,7 +17,7 @@
   //width: 150px;
   height: 150px;
   border-radius: 100px;
-  box-shadow: 0px 0px 12px 4px #bea5a5;
+  box-shadow: $colorBoxShadowPhot;
 }
 
 .name {
@@ -40,9 +40,9 @@
   //font-family: "Jost", sans-serif;
   // font-family: "Montserrat", sans-serif;
   // font-family: "Nunito", sans-serif;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-family-M;
 }
 
 .description {
-  font-family: "Source Sans Pro";
+  font-family: $font-family-M;
 }

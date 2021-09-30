@@ -5,27 +5,45 @@ function AboutMe() {
   return (
     <>
       <div id="aboutMe" className={styles.container}>
-        <h4 className={styles.title}>Acerca de mi</h4>
+        <p className={styles.title}>Acerca de mi</p>
         <img src={photo} className={styles.photo} alt="Foto de yosiris" />
-        <p>
+        <p className={styles.description}>
           Me encanta sonreir, me adapto facilmente a los cambios y aprender
           cosas nuevas. Amante de las plantas y los animales. Llegue al mundo de
           la programación porque me gusta y me da la oportunidad de estar en
           constante aprendisaje continuo. Busco adentrarme en el sector IT y
           tener mi primera experiencia laboral en la programación.
         </p>
-        <p>
-          Escribeme<i class="fas fa-envelope"></i>
-        </p>
-        <p>
+        <a href="#" target="_blank" rel="noreferrer">
           <i class="fas fa-code"></i>Porfolio code<i class="fas fa-code"></i>
-        </p>
-        <span>
-          <i class="fab fa-github"></i>
-        </span>
-        <span>
-          <i class="fab fa-linkedin-in"></i>
-        </span>
+        </a>
+        <div className={styles.boxTo}>
+          <a
+            href="mailto: yosiris0510@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a
+            href="https://github.com/yosiris-m"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>
+              <i class="fab fa-github"></i>
+            </span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/yosiris/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>
+              <i class="fab fa-linkedin-in"></i>
+            </span>
+          </a>
+        </div>
       </div>
     </>
   );
