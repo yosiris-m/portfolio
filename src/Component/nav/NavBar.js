@@ -21,14 +21,18 @@ function NavBar() {
               <i className="far fa-file-alt"></i>Proyectos
             </li>
           </a>
+
           <a href="#tools">
             <li>
               <i className="fas fa-wrench"></i> Herramientas
             </li>
           </a>
-          yosiris_cv.pdf
-          {/* 
-          <i class="fas fa-phone-alt"></i> */}
+
+          <a href="#aboutMe">
+            <li>
+              <i className="far fa-user"></i> Acerca de mi
+            </li>
+          </a>
         </ul>
       </div>
       <div className={styles.shield} onClick={toggleOpen}></div>
