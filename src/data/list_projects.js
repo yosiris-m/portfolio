@@ -9,7 +9,7 @@ import rickMorty from "../images/rick_morty.png";
 const projectsList = [
   {
     id: 1,
-    title: "Arquitectura de software",
+    title: "FamilyCash API",
     description:
       "Base de datos implementada para guardar los datos de la aplicación Family-cash-App",
     urlGit: "https://github.com/yosiris-m/family-cash-app",
@@ -18,7 +18,7 @@ const projectsList = [
   },
   {
     id: 2,
-    title: "Family-cash-App",
+    title: "FamilyCash Front",
     description:
       "App que permite crear y agregar transaciones de manera que puedas ver los ingresos, los gastos y generar informes (en proceso).",
     urlGit: "https://github.com/yosiris-m/family-cash-app",

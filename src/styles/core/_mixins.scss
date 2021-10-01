@@ -1,3 +1,18 @@
 @mixin bg-boxShadowImg() {
   box-shadow: 0px 0px 12px 4px #bea5a5;
 }
+
+// export const HeaderWrapper styled.header {`
+//   height: 10vh;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// `
+// }
+
+// export const theme = {
+//   primaryDark: '#0D0C1D',
+//   primaryLight: '#EFFFFA',
+//   primaryHover: '#343078',
+//   mobile: '576px',
+// }

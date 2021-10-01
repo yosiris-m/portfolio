@@ -5,17 +5,17 @@ import Main from "./Component/Main";
 import { BrowserRouter as Router } from "react-router-dom";
 import projectsList from "./data/list_projects";
 import Footer from "./Component/Footer";
+import NavBar from "./Component/nav/NavBar";
 
 function App() {
   console.log("list", projectsList);
 
   return (
     <Router>
-      <body className="body">
-        <Header />
-        <Main projectsList={projectsList} />
-        <Footer />
-      </body>
+      <NavBar />
+      <Header />
+      <Main projectsList={projectsList} />
+      <Footer />
     </Router>
   );
 }

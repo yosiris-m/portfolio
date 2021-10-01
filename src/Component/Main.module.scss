@@ -7,14 +7,18 @@
 
 .title {
   font-size: 2rem;
-  // font-family: "Jost", sans-serif;
   font-family: $font-title;
-  // font-family: "Nunito", sans-serif;
-  // font-family: "Source Sans Pro", sans-serif;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-family: $font-title;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 .photo {
-  //width: 150px;
   height: 150px;
   border-radius: 100px;
   box-shadow: $colorBoxShadowPhot;
@@ -25,24 +29,26 @@
   font-family: $font-family;
   font-weight: 400;
   padding: 0 0.5rem;
-  // function: "Montserrat", sans-serif;
-  // font-family: "Nunito", sans-serif;
-  // font-family: "Source Sans Pro", sans-serif;
 }
 
 .job {
   font-family: $font-family;
   font-size: 1.2rem;
 }
+
 .descriptionBox {
   text-align: center;
   padding: 0 1rem;
-  //font-family: "Jost", sans-serif;
-  // font-family: "Montserrat", sans-serif;
-  // font-family: "Nunito", sans-serif;
   font-family: $font-family-M;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .description {
   font-family: $font-family-M;
+}
+
+.cvLink {
+  text-decoration: none;
+  color: black;
 }

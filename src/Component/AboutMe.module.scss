@@ -1,12 +1,9 @@
 @import "../styles/core/variables";
+
 .photo {
   height: 200px;
   border-radius: 5px;
   box-shadow: $colorBoxShadowPhot;
-  text-align: center;
-}
-
-.container {
   text-align: center;
 }
 
@@ -16,22 +13,23 @@
   font-size: 20px;
   padding: 0 1rem;
   font-family: $font-family-Jost;
-  // font-family: "Montserrat", sans-serif;
-  // font-family: "Nunito", sans-serif;
-  // font-family: "Source Sans Pro", sans-serif;
-}
-.title {
-  text-align: center;
-  font-size: 35px;
-  font-family: $font-family;
 }
 
-.boxTo {
+.boxContact {
   display: flex;
   flex-direction: column;
   position: fixed;
   z-index: 1;
-  top: 2.5%;
+  top: 4%;
   right: 20px;
-  line-height: 25px;
+}
+
+.nav {
+  color: black;
+  font-size: 1rem;
+  margin: 0 auto;
+
+  @media all and (min-width: 768px) {
+    font-size: 1.5rem;
+  }
 }

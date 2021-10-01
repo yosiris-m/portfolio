@@ -3,7 +3,7 @@ import photo from "../images/yosi_photo.jpg";
 import ProjectList from "./ProjectList";
 import Technology from "./Technology";
 import AboutMe from "./AboutMe";
-import InputSwitch from "./InputSwitch";
+import InputSwitch from "./nav/InputSwitch";
 // import React, { useState } from "react";
 
 function Main({ projectsList }) {
@@ -16,7 +16,7 @@ function Main({ projectsList }) {
         onToggled={() => setIsToggled(!isToggled)}
       /> */}
       <section className={styles.mainBox}>
-        <h4 className={styles.title}>Hola mundo!</h4>
+        <h1 className={styles.title}>Hola mundo!</h1>
         <div>
           <img className={styles.photo} src={photo} alt="Yosiris face" />
         </div>
@@ -36,21 +36,21 @@ function Main({ projectsList }) {
           End Developer.
         </p>
 
+        <h2 id="projects" className={styles.subtitle}>
+          Proyectos
+        </h2>
         <ProjectList projectList={projectsList} />
+
+        <h2 id="tools" className={styles.subtitle}>
+          Tecnologías
+        </h2>
         <Technology />
 
-        {/* <p>
-          y
-          enfrentarme a grandes retos. Apasionada de la naturaleza y la
-          programación.
-        </p> */}
-        {/* <p>
-          Tras años de pertenecer al mundo de las ciencias de la salud he
-          decidido dar un cambio, reinventarme y hacer lo que me gusta "
-          programar".
-        </p> */}
+        <h2 id="aboutMe" className={styles.subtitle}>
+          Acerca de mí
+        </h2>
+        <AboutMe />
       </section>
-      <AboutMe />
     </main>
   );
 }
