@@ -3,7 +3,7 @@ import photo from "../images/yosi_photo.jpg";
 import ProjectList from "./ProjectList";
 import Technology from "./Technology";
 import AboutMe from "./AboutMe";
-import InputSwitch from "./nav/InputSwitch";
+// import InputSwitch from "./nav/InputSwitch";
 // import React, { useState } from "react";
 
 function Main({ projectsList }) {
@@ -42,7 +42,7 @@ function Main({ projectsList }) {
         <ProjectList projectList={projectsList} />
 
         <h2 id="tools" className={styles.subtitle}>
-          Tecnologías
+          Herramientas
         </h2>
         <Technology />
 

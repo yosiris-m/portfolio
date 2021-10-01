@@ -12,13 +12,7 @@ function AboutMe() {
         constante aprendisaje continuo. Busco adentrarme en el sector IT y tener
         mi primera experiencia laboral en la programación.
       </p>
-      <a
-        href="https://github.com/yosiris-m/portfolio"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i class="fas fa-code"></i>Porfolio code<i class="fas fa-code"></i>
-      </a>
+
       <div className={styles.boxContact}>
         <a
           href="mailto: yosiris0510@gmail.com"

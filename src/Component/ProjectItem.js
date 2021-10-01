@@ -7,11 +7,23 @@ function ProjectItem({ item }) {
       <img src={item.img} alt="architecture" className={styles.img} />
       <p className={styles.subTitle}>{item.description}</p>
       <div className={styles.codeBox}>
-        <a href={item.urlGit} alt="link" className={styles.codeGit}>
+        <a
+          href={item.urlGit}
+          alt="git"
+          className={styles.codeGit}
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fa fa-github" href={item.urlGit}></i>
         </a>
-        <a href={item.urlPage} alt="link" className={styles.codePage}>
-          <i className="fa fa-tv"></i>
+        <a
+          href={item.urlPage}
+          alt="webpage"
+          className={styles.codePage}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fas fa-external-link-alt"></i>
         </a>
       </div>
     </div>

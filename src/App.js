@@ -8,8 +8,6 @@ import Footer from "./Component/Footer";
 import NavBar from "./Component/nav/NavBar";
 
 function App() {
-  console.log("list", projectsList);
-
   return (
     <Router>
       <NavBar />

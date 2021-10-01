@@ -9,15 +9,6 @@ import rickMorty from "../images/rick_morty.png";
 const projectsList = [
   {
     id: 1,
-    title: "FamilyCash API",
-    description:
-      "Base de datos implementada para guardar los datos de la aplicación Family-cash-App",
-    urlGit: "https://github.com/yosiris-m/family-cash-app",
-    urlPage: "https://family-cash-app.herokuapp.com/",
-    img: architecture,
-  },
-  {
-    id: 2,
     title: "FamilyCash Front",
     description:
       "App que permite crear y agregar transaciones de manera que puedas ver los ingresos, los gastos y generar informes (en proceso).",
@@ -25,6 +16,16 @@ const projectsList = [
     urlPage: "https://family-cash-app.herokuapp.com/",
     img: familyCash,
   },
+  {
+    id: 2,
+    title: "FamilyCash API",
+    description:
+      "API Rest que se integra con una base de datos Pp implementada para guardar los datos de la aplicación Family-cash-App",
+    urlGit: "https://github.com/yosiris-m/family-cash-app",
+    urlPage: "https://family-cash-app.herokuapp.com/",
+    img: architecture,
+  },
+
   {
     id: 3,
     title: "Card profile",

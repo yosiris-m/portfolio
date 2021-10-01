@@ -12,7 +12,7 @@ function NavBar() {
     <>
       <div className={styles.panel}>
         <div onClick={toggleOpen} className={styles.closeBtn}>
-          <i class="fas fa-times closed"></i>
+          <i className="fas fa-times closed"></i>
         </div>
 
         <ul className={styles.linksBox} onClick={toggleOpen}>

@@ -1,6 +1,6 @@
-import styles from "./Header.module.scss";
-import InputSwitch from "./nav/InputSwitch";
-import React, { useState } from "react";
+// import styles from "./Header.module.scss";
+// import InputSwitch from "./nav/InputSwitch";
+import React from "react";
 
 function Header() {
   // const [isToggled, setIsToggled] = useState(false);
