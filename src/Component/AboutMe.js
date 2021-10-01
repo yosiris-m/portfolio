@@ -13,7 +13,7 @@ function AboutMe() {
         mi primera experiencia laboral en la programación.
       </p>
       <a
-        href="https://yosiris-m.github.io/portfolio/"
+        href="https://github.com/yosiris-m/portfolio"
         target="_blank"
         rel="noreferrer"
       >
