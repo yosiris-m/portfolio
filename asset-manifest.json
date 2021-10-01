@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12d11075.chunk.css",
+    "main.js": "/static/js/main.54f6d3d6.chunk.js",
+    "main.js.map": "/static/js/main.54f6d3d6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a8ccbcc4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a8ccbcc4.js.map",
+    "static/js/2.eb898600.chunk.js": "/static/js/2.eb898600.chunk.js",
+    "static/js/2.eb898600.chunk.js.map": "/static/js/2.eb898600.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.12d11075.chunk.css.map": "/static/css/main.12d11075.chunk.css.map",
+    "static/js/2.eb898600.chunk.js.LICENSE.txt": "/static/js/2.eb898600.chunk.js.LICENSE.txt",
+    "static/media/architecture_app.ea2c3ad2.png": "/static/media/architecture_app.ea2c3ad2.png",
+    "static/media/buscador_serie.247d5a76.png": "/static/media/buscador_serie.247d5a76.png",
+    "static/media/card.8db6460a.png": "/static/media/card.8db6460a.png",
+    "static/media/family_app.0cb65202.png": "/static/media/family_app.0cb65202.png",
+    "static/media/foto1.580ea469.jpg": "/static/media/foto1.580ea469.jpg",
+    "static/media/maquetacion_web.89af490f.png": "/static/media/maquetacion_web.89af490f.png",
+    "static/media/planet_express.c30af496.png": "/static/media/planet_express.c30af496.png",
+    "static/media/rick_morty.8b3122ec.png": "/static/media/rick_morty.8b3122ec.png",
+    "static/media/yosi_photo.f6e350f0.jpg": "/static/media/yosi_photo.f6e350f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8ccbcc4.js",
+    "static/js/2.eb898600.chunk.js",
+    "static/css/main.12d11075.chunk.css",
+    "static/js/main.54f6d3d6.chunk.js"
+  ]
+}
