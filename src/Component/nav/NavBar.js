@@ -33,6 +33,14 @@ function NavBar() {
               <i className="far fa-user"></i> Acerca de mi
             </li>
           </a>
+          <a href="#contacto">
+            <li>
+              <i class="far fa-address-card"></i> Contacto
+            </li>
+          </a>
+          <div className={styles.flower}>
+            <i className="fab fa-pagelines"></i>
+          </div>
         </ul>
       </div>
       <div className={styles.shield} onClick={toggleOpen}></div>

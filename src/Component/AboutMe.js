@@ -3,57 +3,32 @@ import styles from "./AboutMe.module.scss";
 
 function AboutMe() {
   return (
-    <>
-      <img src={photo} className={styles.photo} alt="Foto de yosiris" />
-      <p className={styles.description}>
-        Me encanta sonreir, me adapto facilmente a los cambios y aprender cosas
-        nuevas. Amante de las plantas y los animales. Llegue al mundo de la
-        programación porque me gusta y me da la oportunidad de estar en
-        constante aprendisaje continuo. Busco adentrarme en el sector IT y tener
-        mi primera experiencia laboral en la programación.
-      </p>
+    <div className={styles.container}>
+      <div className={styles.description}>
+        <img src={photo} className={styles.photo} alt="Foto de yosiris" />
+        <di className={styles.BoxDescription}>
+          <p>
+            Soy una alma libre amante de los colores y defensora de la
+            diversidad, me gustan los retos y los grandes cambios.
+          </p>
+          <p>
+            Soy Licenciada en Bioanálisis, tras varios años de estar en el
+            sector salud decidí reinventarme en el sector IT, para ello me
+            inscribí a un Bootcamp intensivo dónde he aprendido a programar,
+            actualmente estoy en otro Bootcamp para consolidar mis conocimientos
+            en
+            <strong> JavaScript</strong>, <strong> TypeScript</strong> y
+            <strong> Angular</strong>.
+          </p>
 
-      <div className={styles.boxContact}>
-        <a
-          href="mailto: yosiris0510@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.nav}
-        >
-          <i className="fas fa-envelope"></i>
-        </a>
-        <a
-          href="https://github.com/yosiris-m"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.nav}
-        >
-          <span>
-            <i className="fab fa-github"></i>
-          </span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/yosiris/"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.nav}
-        >
-          <span>
-            <i className="fab fa-linkedin-in"></i>
-          </span>
-        </a>
-        <a
-          href="./yosiris_cv.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className={styles.nav}
-        >
-          <span>
-            <i className="far fa-file-pdf"></i>
-          </span>
-        </a>
+          <p>
+            De las cosas que más me llama a la atención en la programación es el
+            aprendisaje continuo, trabajar en equipo, compartir conocimientos y
+            pertenecer a un sector tan colaborativo.
+          </p>
+        </di>
       </div>
-    </>
+    </div>
   );
 }
 

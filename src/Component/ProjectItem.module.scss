@@ -2,20 +2,27 @@
 @import "../styles/core/mixins";
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-  padding: 1rem;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  text-align: center;
+  // margin: 0.5rem;
   background-color: $color-background;
-  font-size: 12px;
+  font-size: 10px;
   margin-bottom: 20px;
-  @include bg-boxShadowImg;
+  border: 1px solid rgba(240, 174, 174, 0.493);
+
+  @media all and (min-width: 768px) {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  // box-shadow: 1px 2px 4px 6px rgba(214, 207, 207, 0.38);
+  // @include bg-boxShadowImg;
 }
 
 .img {
   height: 15rem;
-  line-height: 20px;
   align-items: center;
 }
 
@@ -25,21 +32,36 @@
 }
 
 .subTitle {
+  height: 5rem;
   font-size: 0.9rem;
   font-family: $font-family-N;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  @media all and (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
+.tools {
+  font-size: 0.9rem;
+  font-family: $font-title;
+  margin-top: 2rem;
+}
 .codeBox {
   text-decoration: none;
+  padding-bottom: 1.5rem;
 }
 
 .codeGit {
-  margin-right: 5rem;
-  font-size: 1.03rem;
+  margin-right: 1rem;
+  font-size: 1.5rem;
   color: $colorLink;
 }
 
 .codePage {
   color: $colorLink;
   font-size: 0.8rem;
+  font-size: 1.3rem;
 }

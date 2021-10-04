@@ -1,21 +1,46 @@
 @import "../styles/core/variables";
 
 .mainBox {
-  text-align: center;
+  color: black;
+  background-image: url("../images/hero_bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   padding-top: 38px;
+  padding: 0 2rem;
+  background: radial-gradient(
+    circle,
+    rgba(238, 204, 170, 0.2) 0%,
+    rgba(216, 172, 172, 0.5) 100%
+  );
 }
 
 .title {
+  margin-top: 0;
   font-size: 2rem;
   font-family: $font-title;
 }
 
 .subtitle {
   font-size: 1.5rem;
-  font-family: $font-title;
+  font-family: $font-family-N;
   margin-top: 5rem;
   margin-bottom: 2rem;
   font-weight: 400;
+  text-align: center;
+}
+
+.code {
+  & i {
+    color: rgba(248, 120, 120, 0.712);
+  }
 }
 
 .photo {
@@ -37,7 +62,6 @@
 }
 
 .descriptionBox {
-  text-align: center;
   padding: 0 1rem;
   font-family: $font-family-M;
   max-width: 60rem;
@@ -46,9 +70,50 @@
 
 .description {
   font-family: $font-family-M;
+  text-align: center;
 }
 
-.cvLink {
-  text-decoration: none;
-  color: black;
+// .cvLink {
+//   text-decoration: none;
+//   color: black;
+// }
+.boxContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 1rem;
+  padding-top: 2rem;
+
+  & i {
+    font-size: 2rem;
+    color: $colorLink;
+  }
+
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    top: 4%;
+    right: 20px;
+    padding-top: 0.5rem;
+    line-height: 5rem;
+  }
+}
+
+.backBtn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid rgb(245, 158, 158);
+  line-height: 2.2rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+
+  & i {
+    font-size: 1.3rem;
+    color: rgb(245, 158, 158);
+  }
 }

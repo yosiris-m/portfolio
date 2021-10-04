@@ -69,3 +69,13 @@
   position: fixed;
   z-index: 1;
 }
+
+.flower {
+  margin-top: 7rem;
+  text-align: center;
+
+  & i {
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.733);
+  }
+}
