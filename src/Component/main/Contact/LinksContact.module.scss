@@ -1,0 +1,36 @@
+@import "../../../styles/core/variables";
+
+.boxContact {
+  line-height: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  margin-top: 2rem;
+
+  & i {
+    font-size: 1.8rem;
+    color: $colorLink;
+
+    &:hover {
+      color: $color-bg;
+    }
+  }
+
+  // @media all and (min-width: 768px) {
+  //   display: flex;
+  //   flex-direction: column;
+  //   position: fixed;
+  //   z-index: 1;
+  //   top: 10%;
+  //   left: 0.5rem;
+  //   // right: 3rem;
+  //   padding-top: 0.5rem;
+  //   line-height: 5rem;
+
+  //   & i {
+  //     color: black;
+  //   }
+  // }
+}

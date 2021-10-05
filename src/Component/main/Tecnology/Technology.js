@@ -1,5 +1,5 @@
-import styles from "../Component/Technology.module.scss";
-import tools from "../data/tools";
+import styles from "../Tecnology/Technology.module.scss";
+import tools from "../../../data/tools";
 
 function Technology() {
   return (

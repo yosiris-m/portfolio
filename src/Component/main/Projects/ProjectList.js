@@ -1,5 +1,5 @@
-import ProjectItem from "./ProjectItem";
-import styles from "../Component/ProjectList.module.scss";
+import ProjectItem from "../Projects/ProjectItem";
+import styles from "../Projects/ProjectList.module.scss";
 
 function ProjectList({ projectList }) {
   return (

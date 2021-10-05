@@ -10,7 +10,7 @@ import rickMorty from "../images/rick_morty.png";
 const projectsList = [
   {
     id: 1,
-    title: "FamilyCash Front",
+    title: "FamilyCash",
     description:
       "App que permite crear y agregar transaciones de manera que puedas ver los ingresos, los gastos y generar informes (en proceso).",
     urlGit: "https://github.com/yosiris-m/family-cash-app",
@@ -63,7 +63,7 @@ const projectsList = [
     id: 6,
     title: "Buscador de series",
     description:
-      "Aplicación web que permite buscar series y agregarlas a favoritas.",
+      "Aplicación web que permite buscar series por nombre, ver su titulo, crear un listado de favoritas y eliminarlas de favoritas.",
     urlGit: "https://github.com/yosiris-m/buscador-de-series-yosiris-m",
     urlPage: "https://yosiris-m.github.io/buscador-de-series-yosiris-m/",
     img: series,

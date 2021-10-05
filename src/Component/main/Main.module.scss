@@ -1,0 +1,59 @@
+@import "../../styles/core/variables";
+
+.main {
+  max-width: 17rem;
+  margin: 0 auto;
+
+  @media all and (min-width: 768px) {
+    max-width: 60rem;
+  }
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-family: $font-family-N;
+  margin-top: 3rem;
+  margin-bottom: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  font-weight: bold;
+}
+
+.backBtn {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: rgb(253, 253, 253);
+  border: 1px solid $color-bg;
+  line-height: 2rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  text-align: center;
+  // position: fixed;
+  // top: 90%;
+  animation: bounce 0.5s alternate infinite ease-in;
+
+  & i {
+    font-size: 1.3rem;
+    color: $color-bg;
+    padding-top: 0.3rem;
+  }
+
+  &:hover {
+    background-color: $color-bg;
+
+    & i {
+      color: $color-w;
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(-20%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+}

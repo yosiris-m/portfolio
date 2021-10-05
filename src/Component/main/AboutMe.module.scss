@@ -1,4 +1,4 @@
-@import "../styles/core/variables";
+@import "../../styles/core/variables";
 
 .container {
   display: flex;
@@ -26,11 +26,10 @@
   font-size: 1.2rem;
   padding: 0 1rem;
   font-family: $font-family-M;
-  border: 1px solid rgba(240, 174, 174, 0.315);
 
   @media all and (min-width: 768px) {
     font-size: 1.2rem;
-    line-height: 3rem;
+
     max-width: 50rem;
   }
 

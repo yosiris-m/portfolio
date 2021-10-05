@@ -1,16 +1,11 @@
-@import "../styles/core/variables";
-@import "../styles/core/mixins";
+@import "../../../styles/core/variables";
+@import "../../../styles/core/mixins";
 
 .container {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
   text-align: center;
-  // margin: 0.5rem;
   background-color: $color-background;
-  font-size: 10px;
-  margin-bottom: 20px;
   border: 1px solid rgba(240, 174, 174, 0.493);
+  height: 33rem;
 
   @media all and (min-width: 768px) {
     margin: 2rem;
@@ -23,7 +18,6 @@
 
 .img {
   height: 15rem;
-  align-items: center;
 }
 
 .title {
@@ -32,7 +26,6 @@
 }
 
 .subTitle {
-  height: 5rem;
   font-size: 0.9rem;
   font-family: $font-family-N;
   padding-left: 0.5rem;
@@ -47,11 +40,11 @@
 .tools {
   font-size: 0.9rem;
   font-family: $font-title;
-  margin-top: 2rem;
 }
+
 .codeBox {
   text-decoration: none;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 
 .codeGit {
@@ -62,6 +55,5 @@
 
 .codePage {
   color: $colorLink;
-  font-size: 0.8rem;
   font-size: 1.3rem;
 }

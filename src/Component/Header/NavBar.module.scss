@@ -4,8 +4,16 @@
   position: fixed;
   font-size: 2rem;
   color: $colorMenu-a;
-  padding: 0.7rem;
+  padding: 0.3rem 0.3rem;
   cursor: pointer;
+
+  &:hover {
+    color: $color-bg;
+  }
+
+  @media all and (min-width: 768px) {
+    padding: 0.7rem 1.6rem;
+  }
 }
 
 .panel {
@@ -35,6 +43,7 @@
   line-height: 50px;
   padding: 0;
   margin-top: 3rem;
+  font-family: $font-family-N;
 
   & a {
     text-decoration: none;
@@ -51,7 +60,7 @@
     background-color: rgba(0, 0, 0, 0.096);
     color: rgb(253, 242, 242);
     border-bottom: 0.1rem solid rgb(226, 222, 222);
-    // transition: 0.25s ease-in;
+    font-weight: 600;
   }
 
   & li i {

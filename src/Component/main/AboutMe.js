@@ -1,5 +1,5 @@
-import photo from "../images/foto1.jpg";
-import styles from "./AboutMe.module.scss";
+import photo from "../../images/foto1.jpg";
+import styles from "../main/AboutMe.module.scss";
 
 function AboutMe() {
   return (
@@ -12,18 +12,18 @@ function AboutMe() {
             diversidad, me gustan los retos y los grandes cambios.
           </p>
           <p>
-            Soy Licenciada en Bioanálisis, tras varios años de estar en el
-            sector salud decidí reinventarme en el sector IT, para ello me
-            inscribí a un Bootcamp intensivo dónde he aprendido a programar,
-            actualmente estoy en otro Bootcamp para consolidar mis conocimientos
-            en
-            <strong> JavaScript</strong>, <strong> TypeScript</strong> y
-            <strong> Angular</strong>.
+            Soy Licenciada en Bioanálisis, tras varios años en el sector salud
+            decidí reinventarme en el sector IT. Para ello, me inscribí a un
+            Bootcamp intensivo dónde he aprendido a programar. Actualmente sigo
+            formándome en otro Bootcamp: <i>Desarrollo Web Full Stack</i> con
+            especialidad en
+            <strong> JavaScript</strong>, <strong> TypeScript</strong>,
+            <strong> Angular</strong> y <strong> Node Js</strong>.
           </p>
 
           <p>
             De las cosas que más me llama a la atención en la programación es el
-            aprendisaje continuo, trabajar en equipo, compartir conocimientos y
+            aprendizaje continuo, trabajar en equipo, compartir conocimientos y
             pertenecer a un sector tan colaborativo.
           </p>
         </di>

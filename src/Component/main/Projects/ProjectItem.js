@@ -6,7 +6,7 @@ function ProjectItem({ item }) {
       <h4 className={styles.title}>{item.title}</h4>
       <img src={item.img} alt="architecture" className={styles.img} />
       <p className={styles.subTitle}>{item.description}</p>
-      <p className={styles.tools}>{item.tools}</p>
+      <p className={styles.tools}>{item.tools}</p>{" "}
       <div className={styles.codeBox}>
         <a
           href={item.urlGit}
