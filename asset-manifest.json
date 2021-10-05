@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fe22b214.chunk.css",
-    "main.js": "/portfolio/static/js/main.5389ffbb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5389ffbb.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.280dda32.chunk.css",
+    "main.js": "/portfolio/static/js/main.b971fc33.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b971fc33.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a095d8a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a095d8a.js.map",
-    "static/js/2.6fde7c3c.chunk.js": "/portfolio/static/js/2.6fde7c3c.chunk.js",
-    "static/js/2.6fde7c3c.chunk.js.map": "/portfolio/static/js/2.6fde7c3c.chunk.js.map",
+    "static/js/2.1acc3a9f.chunk.js": "/portfolio/static/js/2.1acc3a9f.chunk.js",
+    "static/js/2.1acc3a9f.chunk.js.map": "/portfolio/static/js/2.1acc3a9f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.fe22b214.chunk.css.map": "/portfolio/static/css/main.fe22b214.chunk.css.map",
-    "static/js/2.6fde7c3c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6fde7c3c.chunk.js.LICENSE.txt",
+    "static/css/main.280dda32.chunk.css.map": "/portfolio/static/css/main.280dda32.chunk.css.map",
+    "static/js/2.1acc3a9f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1acc3a9f.chunk.js.LICENSE.txt",
     "static/media/architecture_app.677fb895.png": "/portfolio/static/media/architecture_app.677fb895.png",
     "static/media/buscador_serie.247d5a76.png": "/portfolio/static/media/buscador_serie.247d5a76.png",
     "static/media/card.8db6460a.png": "/portfolio/static/media/card.8db6460a.png",
     "static/media/family_app.0cb65202.png": "/portfolio/static/media/family_app.0cb65202.png",
     "static/media/foto1.580ea469.jpg": "/portfolio/static/media/foto1.580ea469.jpg",
-    "static/media/Main.module.scss": "/portfolio/static/media/hero_bg2.9927d610.jpg",
+    "static/media/Header.module.scss": "/portfolio/static/media/hero_bg.46f4316b.jpg",
     "static/media/maquetacion_web.89af490f.png": "/portfolio/static/media/maquetacion_web.89af490f.png",
     "static/media/planet_express.c30af496.png": "/portfolio/static/media/planet_express.c30af496.png",
     "static/media/rick_morty.8b3122ec.png": "/portfolio/static/media/rick_morty.8b3122ec.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6a095d8a.js",
-    "static/js/2.6fde7c3c.chunk.js",
-    "static/css/main.fe22b214.chunk.css",
-    "static/js/main.5389ffbb.chunk.js"
+    "static/js/2.1acc3a9f.chunk.js",
+    "static/css/main.280dda32.chunk.css",
+    "static/js/main.b971fc33.chunk.js"
   ]
 }
