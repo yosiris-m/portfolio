@@ -6,7 +6,7 @@ function AboutMe() {
     <div className={styles.container}>
       <div className={styles.description}>
         <img src={photo} className={styles.photo} alt="Foto de yosiris" />
-        <di className={styles.BoxDescription}>
+        <div className={styles.BoxDescription}>
           <p>
             Soy una alma libre amante de los colores y defensora de la
             diversidad, me gustan los retos y los grandes cambios.
@@ -26,7 +26,7 @@ function AboutMe() {
             aprendizaje continuo, trabajar en equipo, compartir conocimientos y
             pertenecer a un sector tan colaborativo.
           </p>
-        </di>
+        </div>
       </div>
     </div>
   );

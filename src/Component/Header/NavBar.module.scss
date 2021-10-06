@@ -6,6 +6,7 @@
   color: $colorMenu-a;
   padding: 0.5rem 0.5rem;
   cursor: pointer;
+  z-index: 10;
 
   &:hover {
     color: $color-bg;
@@ -26,6 +27,11 @@
   height: 100vh;
   z-index: 2;
   font-family: $font-family-N;
+  transition: all 0.5s ease;
+
+  &.closed {
+    left: -20rem;
+  }
 }
 
 .closeBtn {
@@ -43,8 +49,9 @@
 
 .linksBox {
   line-height: 50px;
-  padding: 0;
   margin-top: 5rem;
+  padding: 1rem;
+  list-style-type: none;
 
   & a {
     text-decoration: none;
@@ -81,7 +88,7 @@
 }
 
 .shield {
-  background-color: colorCloseBtn;
+  background-color: rgba(0, 0, 0, 0.2);
   top: 0;
   left: 0;
   width: 100vw;
@@ -91,7 +98,6 @@
 }
 
 .flower {
-  padding-right: 2.3rem;
   margin-top: 8rem;
   text-align: center;
 

@@ -1,9 +1,7 @@
-import architecture from "../images/architecture_app.png";
 import familyCash from "../images/family_app.png";
 import series from "../images/buscador_serie.png";
 import card from "../images/card.png";
 import maquetacionProyecto from "../images/maquetacion_web.png";
-// import maquetacion from "../images/maquetacion_web.png";
 import planet from "../images/planet_express.png";
 import rickMorty from "../images/rick_morty.png";
 
@@ -18,17 +16,6 @@ const projectsList = [
     img: familyCash,
     tools: "JavaScript, React, Bootstrap, Sass",
   },
-  // {
-  //   id: 2,
-  //   title: "FamilyCash API",
-  //   description:
-  //     "API Rest que se integra con una base de datos, implementada para guardar los datos de la aplicación Family-cash-App",
-  //   urlGit: "https://github.com/yosiris-m/family-cash-app",
-  //   urlPage: "https://family-cash-app.herokuapp.com/",
-  //   img: architecture,
-  //   tools: "JavaScript, React, Node JS, Express, PostgreSQL, Postman",
-  // },
-
   {
     id: 3,
     title: "Card profile",

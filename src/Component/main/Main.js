@@ -29,7 +29,7 @@ function Main({ projectsList }) {
 
       <a href="#inicio">
         <div className={styles.backBtn}>
-          <i class="fas fa-chevron-up"></i>
+          <i className="fas fa-chevron-up"></i>
         </div>
       </a>
     </main>

@@ -9,7 +9,7 @@ function Contact() {
       </p>
       <p>
         <a className={styles.btn} href="mailto:yosiris1086@gmail.com">
-          <i class="far fa-envelope"></i> Escríbeme
+          <i className="far fa-envelope"></i> Escríbeme
         </a>
       </p>
     </section>

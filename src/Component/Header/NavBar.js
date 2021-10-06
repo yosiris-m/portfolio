@@ -8,9 +8,16 @@ function NavBar() {
     setOpen(!open);
   };
 
-  return open ? (
+  const panelClasses = open ? styles.panel : `${styles.panel} ${styles.closed}`;
+
+  return (
     <>
-      <div className={styles.panel}>
+      {!open && (
+        <div className={styles.menu} onClick={toggleOpen}>
+          <i className="fas fa-bars"></i>
+        </div>
+      )}
+      <div className={panelClasses}>
         <div onClick={toggleOpen} className={styles.closeBtn}>
           <i className="fas fa-times closed"></i>
         </div>
@@ -24,7 +31,7 @@ function NavBar() {
 
           <a href="#tools">
             <li>
-              <i class="fas fa-cog"></i>Herramientas
+              <i className="fas fa-cog"></i>Herramientas
             </li>
           </a>
 
@@ -35,7 +42,7 @@ function NavBar() {
           </a>
           <a href="#contacto">
             <li>
-              <i class="far fa-address-card"></i> Contacto
+              <i className="far fa-address-card"></i> Contacto
             </li>
           </a>
           <div className={styles.flower}>
@@ -43,12 +50,8 @@ function NavBar() {
           </div>
         </ul>
       </div>
-      <div className={styles.shield} onClick={toggleOpen}></div>
+      {open && <div className={styles.shield} onClick={toggleOpen}></div>}
     </>
-  ) : (
-    <div className={styles.menu} onClick={toggleOpen}>
-      <i className="fas fa-bars"></i>
-    </div>
   );
 }
 

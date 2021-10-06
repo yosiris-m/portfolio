@@ -29,7 +29,7 @@ function Header() {
           <LinkContact />
           <a href="#projects">
             <div className={styles.btnGoDown}>
-              <i class="fas fa-chevron-down"></i>
+              <i className="fas fa-chevron-down"></i>
             </div>
           </a>
         </div>
