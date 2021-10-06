@@ -15,18 +15,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: radial-gradient(
-    circle,
-    rgba(240, 221, 203, 0.89) 0%,
-    rgba(235, 209, 209, 0.87) 100%
-  );
+  background: radial-gradient(circle, $color-giro0, $color-giro01);
 
   @media all and (min-width: 768px) {
-    background: radial-gradient(
-      circle,
-      rgba(238, 209, 181, 0.397) 0%,
-      rgba(216, 172, 172, 0.5) 100%
-    );
+    background: radial-gradient(circle, $color-giro1, $color-giro1-1);
   }
 
   @media all and (min-width: 768px) {
@@ -52,7 +44,7 @@
   align-items: center;
 
   & i {
-    color: rgba(204, 15, 15, 0.712);
+    color: $colorBoxName;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-size: 1rem;
@@ -69,7 +61,6 @@
   font-family: $font-family;
   text-align: center;
   padding: 0 1rem;
-  // line-height: 1.3rem;
   font-size: 1.1rem;
   max-width: 40rem;
 }
@@ -85,11 +76,11 @@
   bottom: 0.5rem;
   padding-top: 2rem;
   font-size: 1.5rem;
-  color: rgb(83, 29, 29);
-  animation: bounce 0.5s alternate infinite ease-in;
+  color: $color-btnGo;
+  animation: down 0.5s alternate infinite ease-in;
 }
 
-@keyframes bounce {
+@keyframes down {
   0% {
     transform: translateY(-20%);
   }
@@ -98,4 +89,3 @@
     transform: translateY(0%);
   }
 }
-// padding: 0.7rem 1.6rem;

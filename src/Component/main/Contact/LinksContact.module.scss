@@ -10,27 +10,12 @@
   margin-top: 2rem;
 
   & i {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: $colorLink;
-
-    &:hover {
-      color: $color-bg;
-    }
+    font-size: 2rem;
   }
 
-  // @media all and (min-width: 768px) {
-  //   display: flex;
-  //   flex-direction: column;
-  //   position: fixed;
-  //   z-index: 1;
-  //   top: 10%;
-  //   left: 0.5rem;
-  //   // right: 3rem;
-  //   padding-top: 0.5rem;
-  //   line-height: 5rem;
-
-  //   & i {
-  //     color: black;
-  //   }
-  // }
+  & :hover {
+    color: $colorBl;
+  }
 }

@@ -1,20 +1,11 @@
 import styles from "./Header.module.scss";
-// import InputSwitch from "./nav/InputSwitch";
 import photo from "../../images/yosi_photo.jpg";
-import React from "react";
 import LinkContact from "../main/Contact/LinksContact";
 import NavBar from "./NavBar";
 
 function Header() {
-  // const [isToggled, setIsToggled] = useState(false);
-
   return (
     <>
-      {/* <InputSwitch
-        rounded={true}
-        isToggled={isToggled}
-        onToggled={() => setIsToggled(!isToggled)}
-      /> */}
       <NavBar />
       <section className={styles.headerBox} id="inicio">
         <div className={styles.hero}>

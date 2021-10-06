@@ -4,16 +4,13 @@
 .container {
   text-align: center;
   background-color: $color-background;
-  border: 1px solid rgba(240, 174, 174, 0.493);
+  border: 1px solid $colorSolid;
   height: 33rem;
 
   @media all and (min-width: 768px) {
     margin: 2rem;
     padding: 1rem;
   }
-
-  // box-shadow: 1px 2px 4px 6px rgba(214, 207, 207, 0.38);
-  // @include bg-boxShadowImg;
 }
 
 .img {

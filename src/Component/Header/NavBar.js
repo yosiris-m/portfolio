@@ -24,7 +24,7 @@ function NavBar() {
 
           <a href="#tools">
             <li>
-              <i className="fas fa-wrench"></i> Herramientas
+              <i class="fas fa-cog"></i>Herramientas
             </li>
           </a>
 

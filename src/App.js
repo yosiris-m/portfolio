@@ -1,4 +1,4 @@
-import "./App.css";
+import "./_App.scss";
 import React from "react";
 import Header from "./Component/Header/Header";
 import Main from "./Component/main/Main";
@@ -10,7 +10,6 @@ import Footer from "./Component/Footer";
 function App() {
   return (
     <Router>
-      {/* <NavBar /> */}
       <Header />
       <Main projectsList={projectsList} />
       <Footer />

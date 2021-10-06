@@ -2,9 +2,9 @@
 
 .menu {
   position: fixed;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: $colorMenu-a;
-  padding: 0.3rem 0.3rem;
+  padding: 0.5rem 0.5rem;
   cursor: pointer;
 
   &:hover {
@@ -13,6 +13,7 @@
 
   @media all and (min-width: 768px) {
     padding: 0.7rem 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -21,20 +22,21 @@
   top: 0;
   left: 0;
   width: 15rem;
-  background-color: rgb(236, 158, 158);
+  background-color: $background-panel;
   height: 100vh;
   z-index: 2;
+  font-family: $font-family-N;
 }
 
 .closeBtn {
   cursor: pointer;
   padding: 1rem;
   float: right;
-  color: white;
+  color: $color-w;
 }
 
 .closed {
-  color: pink;
+  color: $colorClose;
   margin-left: 2px;
   padding-left: 10px;
 }
@@ -42,35 +44,44 @@
 .linksBox {
   line-height: 50px;
   padding: 0;
-  margin-top: 3rem;
-  font-family: $font-family-N;
+  margin-top: 5rem;
 
   & a {
     text-decoration: none;
-    color: rgb(255, 243, 243);
+    color: $colorMenu-a;
   }
 
   & li {
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-bottom: 0.1rem solid transparent;
+
+    // font-weight: bold;
+
+    @media all and (min-width: 768px) {
+      font-size: 1.2rem;
+    }
   }
 
   & li:hover {
-    background-color: rgba(0, 0, 0, 0.096);
-    color: rgb(253, 242, 242);
-    border-bottom: 0.1rem solid rgb(226, 222, 222);
-    font-weight: 600;
+    background-color: $colorHoverNav;
+    color: $color-w;
   }
 
   & li i {
     width: 3rem;
     text-align: center;
+    font-size: 1.3rem;
+    padding-right: 1.4rem;
+
+    @media all and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 }
 
 .shield {
-  background-color: rgba(0, 0, 0, 0.171);
+  background-color: colorCloseBtn;
   top: 0;
   left: 0;
   width: 100vw;
@@ -80,11 +91,12 @@
 }
 
 .flower {
-  margin-top: 7rem;
+  padding-right: 2.3rem;
+  margin-top: 8rem;
   text-align: center;
 
   & i {
     font-size: 10rem;
-    color: rgba(255, 255, 255, 0.733);
+    color: $color-Flower;
   }
 }

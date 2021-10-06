@@ -12,7 +12,7 @@ const projectsList = [
     id: 1,
     title: "FamilyCash",
     description:
-      "App que permite crear y agregar transaciones de manera que puedas ver los ingresos, los gastos y generar informes (en proceso).",
+      "App que permite crear y agregar transacciones de manera que puedas ver los ingresos, los gastos y generar informes. Aún en construcción",
     urlGit: "https://github.com/yosiris-m/family-cash-app",
     urlPage: "https://family-cash-app.herokuapp.com/",
     img: familyCash,
@@ -33,7 +33,7 @@ const projectsList = [
     id: 3,
     title: "Card profile",
     description:
-      "Proyecto de equipo, refactorización de codigo antiguo, con el que puedes crear, personalizar y enviar tarjetas de presentación.",
+      "Proyecto de equipo, refactorización de código, con el que puedes crear, personalizar y enviar tarjetas de presentación.    ",
     urlGit: "https://github.com/yosiris-m/project-promo-m-module-3-team5",
     urlPage: "https://vegandebuggers.herokuapp.com/#/card",
     img: card,
@@ -43,7 +43,7 @@ const projectsList = [
     id: 4,
     title: "Rick and Morty",
     description:
-      "Buscador de personajes de la serie rick and morty, permite filtrar y ver con detalle cada personaje.",
+      "Pagina web en la que puedes buscar, filtrar y ver con detalle los personajes de la serie Rick and Morty..",
     urlGit: "https://github.com/yosiris-m/characters-Rick-And-Morty",
     urlPage: "https://yosiris-m.github.io/characters-Rick-And-Morty/#/",
     img: rickMorty,
@@ -53,7 +53,7 @@ const projectsList = [
     id: 5,
     title: "PlaneExpress",
     description:
-      "Buscador de articulos de la serie planet express donde puedes añadir articulos a la cesta y ver los detalles con un temporizador para las ofertas.",
+      "Tienda online de artículos de la serie Planet Express. Se pueden filtrar los artículos, añadirlos  la cesta y ver los detalles  de la compra.",
     urlGit: "https://github.com/yosiris-m/enthec_planetExpress_app",
     urlPage: "https://yosiris-m.github.io/enthec_planetExpress_app/",
     img: planet,
@@ -74,7 +74,7 @@ const projectsList = [
     id: 7,
     title: "Maquetacion web",
     description:
-      "Maquetación de pagina web. Proyecto de equipo 404 en el que además de maquetar aprendimos a trabajar en equipo de manera remota.",
+      "Maquetación de pagina web. Proyecto de equipo 404 en el que además de maquetar aprendimos a trabajar en equipo en remoto.",
     urlGit: "https://github.com/yosiris-m/project-promo-m-module-3-team5",
     urlPage: "https://vegandebuggers.herokuapp.com/#/card",
     img: maquetacionProyecto,

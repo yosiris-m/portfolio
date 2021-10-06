@@ -3,21 +3,10 @@ import ProjectList from "./Projects/ProjectList";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact/Contact";
 import Technology from "./Tecnology/Technology";
-import LinkContact from "./Contact/LinksContact";
-
-// import InputSwitch from "./nav/InputSwitch";
-// import React, { useState } from "react";
 
 function Main({ projectsList }) {
-  // const [isToggled, setIsToggled] = useState(false);
   return (
     <main className={styles.main}>
-      {/* <InputSwitch
-        rounded={true}
-        isToggled={isToggled}
-        onToggled={() => setIsToggled(!isToggled)}
-      /> */}
-
       <h2 id="projects" className={styles.subtitle}>
         Proyectos
       </h2>
