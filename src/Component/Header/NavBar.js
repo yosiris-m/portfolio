@@ -37,7 +37,7 @@ function NavBar() {
 
           <a href="#aboutMe">
             <li>
-              <i className="far fa-user"></i> Acerca de mi
+              <i className="far fa-user"></i> Acerca de mí
             </li>
           </a>
           <a href="#contacto">
