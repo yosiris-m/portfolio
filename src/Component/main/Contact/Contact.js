@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section className={styles.wrapper}>
       <p className={styles.msg}>
-        Si cres que puedo aportar aportar valor a tu empresa....{" "}
+        Si crees que puedo aportar aportar valor a tu empresa....{" "}
         <strong>¡hablemos! </strong> 😉
       </p>
       <p>
