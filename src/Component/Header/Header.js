@@ -22,7 +22,7 @@ function Header() {
             <div className={styles.job}>👨🏻‍💻 Front-end Developer</div>
             <p>
               Estoy <strong>buscando mi primera oportunidad laboral </strong> en
-              el el sector IT. Actualmente estoy perfeccionándome en{" "}
+              el sector IT. Actualmente estoy perfeccionándome en{" "}
               <strong>JavaScript</strong> y<strong> React</strong>.
             </p>
           </div>
