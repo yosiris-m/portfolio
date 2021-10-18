@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e5185289.chunk.css",
-    "main.js": "/portfolio/static/js/main.502e6958.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.502e6958.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.9050ccd0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9050ccd0.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a095d8a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a095d8a.js.map",
     "static/js/2.1acc3a9f.chunk.js": "/portfolio/static/js/2.1acc3a9f.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.1acc3a9f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1acc3a9f.chunk.js.LICENSE.txt",
     "static/media/buscador_serie.247d5a76.png": "/portfolio/static/media/buscador_serie.247d5a76.png",
     "static/media/card.8db6460a.png": "/portfolio/static/media/card.8db6460a.png",
-    "static/media/family_app.0cb65202.png": "/portfolio/static/media/family_app.0cb65202.png",
+    "static/media/family_app.1f77c247.png": "/portfolio/static/media/family_app.1f77c247.png",
     "static/media/foto1.580ea469.jpg": "/portfolio/static/media/foto1.580ea469.jpg",
     "static/media/Header.module.scss": "/portfolio/static/media/hero_bg.46f4316b.jpg",
     "static/media/maquetacion_web.89af490f.png": "/portfolio/static/media/maquetacion_web.89af490f.png",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.6a095d8a.js",
     "static/js/2.1acc3a9f.chunk.js",
     "static/css/main.e5185289.chunk.css",
-    "static/js/main.502e6958.chunk.js"
+    "static/js/main.9050ccd0.chunk.js"
   ]
 }
