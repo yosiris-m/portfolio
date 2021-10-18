@@ -10,7 +10,7 @@ const projectsList = [
     id: 1,
     title: "FamilyCash",
     description:
-      "App que permite crear y agregar transacciones de manera que puedas ver los ingresos, los gastos y generar informes. Aún en construcción.",
+      "App que permite crear y agregar transacciones. De manera que puedas llevar control sobre los gastos y los ingresos por mes. Aún en construcción.",
     urlGit: "https://github.com/yosiris-m/family-cash-app",
     urlPage: "https://family-cash-app.herokuapp.com/",
     img: familyCash,
@@ -67,15 +67,6 @@ const projectsList = [
     img: maquetacionProyecto,
     tools: "Html5, Sass",
   },
-  // {
-  //   id: 7,
-  //   title: "Maquetacion web",
-  //   description:
-  //     "Maquetación de pagina web proyecto de equipo 404, realizado con html y css.",
-  //   urlGit: "https://github.com/yosiris-m/Web-Anonymous",
-  //   urlPage: "https://yosiris-m.github.io/Web-Anonymous/",
-  //   img: maquetacion,
-  // },
 ];
 
 export default projectsList;

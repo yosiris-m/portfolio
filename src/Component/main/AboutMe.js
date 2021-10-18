@@ -22,9 +22,9 @@ function AboutMe() {
           </p>
 
           <p>
-            "Las cosas que más me llama a la atención en la programación son el
+            Las cosas que más me llama a la atención en la programación son el
             aprendizaje continuo, trabajar en equipo, compartir conocimientos y
-            pertenecer a un sector tan colaborativo."
+            pertenecer a un sector tan colaborativo.
           </p>
         </div>
       </div>
