@@ -1,4 +1,5 @@
 import familyCash from "../images/family_app.png";
+import ShareExpense from "../images/ShareExpense.png";
 import series from "../images/buscador_serie.png";
 import card from "../images/card.png";
 import maquetacionProyecto from "../images/maquetacion_web.png";
@@ -16,6 +17,17 @@ const projectsList = [
     img: familyCash,
     tools: "JavaScript, React, Bootstrap, Sass",
   },
+  {
+    id: 2,
+    title: "SharedExpenses",
+    description:
+      "App para compartir gastos. Permite crear usuarios, agregar pagos, ver el total gastado y cuanto tiene que pagar o recibir cada uno de los integrantes.",
+    urlGit: "https://github.com/yosiris-m/SharedExpenses",
+    urlPage: "https://yosiris-m.github.io/SharedExpenses/#/",
+    img: ShareExpense,
+    tools: "TypeScript, React, Jest, NodeJs, Sass",
+  },
+
   {
     id: 3,
     title: "Card profile",

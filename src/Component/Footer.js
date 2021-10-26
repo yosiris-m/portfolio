@@ -5,7 +5,6 @@ function Footer() {
       <span>
         Made with <i className="fas fa-heart"></i> by Yosiris Mariñez
       </span>
-      <span></span>
     </div>
   );
 }
