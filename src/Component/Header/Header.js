@@ -13,18 +13,10 @@ function Header() {
           <div>
             <img className={styles.photo} src={photo} alt="Yosiris face" />
           </div>
-          <div className={styles.code}>
-            <i className="fas fa-code"></i>
-            <p className={styles.name}>Soy Yosiris Mariñez</p>
-            <i className="fas fa-code"></i>
-          </div>
+            <p className={styles.name}>Soy... Yosiris Mariñez Cabrera</p>
           <div className={styles.description}>
-            <div className={styles.job}>👨🏻‍💻 Front-end Developer</div>
-            <p>
-              Estoy <strong>buscando mi primera oportunidad laboral </strong> en
-              el sector IT. Actualmente estoy perfeccionándome en{" "}
-              <strong>JavaScript</strong> y<strong> React</strong>.
-            </p>
+            <div className={styles.job}><span>👨🏻‍💻Programadora    </span><strong>Front-end Developer</strong> actualmente estoy en búsqueda 
+            de una nueva oportunidad laboral en la que pueda seguir desarrollándome tanto en Back como en Front. </div>
           </div>
           <LinkContact />
           <a href="#projects">

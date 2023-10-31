@@ -24,9 +24,10 @@ function LinkContact() {
         </span>
       </a>
       <a
-        href="./yosiris_cv.pdf"
+        href="./public/yosiris_cv.pdf"
         target="_blank"
-        rel="noreferrer"
+        rel=" noopener noreferrer"
+        download="CV_yosiris.pdf"
         className={styles.nav}
       >
         <span className={styles.mailLink}>

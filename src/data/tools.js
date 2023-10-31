@@ -1,12 +1,17 @@
 const tools = [
   {
+    name: "javascript",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
     name: "react",
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
     link: "https://reactjs.org/",
   },
-  {
-    name: "javascript",
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+   {
+    name: "Java",
+    img: "https://i.blogs.es/8d2420/650_1000_java/1366_2000.png",
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
@@ -15,19 +20,9 @@ const tools = [
     link: "https://nodejs.org",
   },
   {
-    name: "express",
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
-    link: "https://expressjs.com",
-  },
-  {
-    name: "postgresql",
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
-    link: "https://www.postgresql.org",
-  },
-  {
-    name: "SQLite",
-    img: "https://www.sqlite.org/images/sqlite370_banner.gif",
-    link: "https://www.sqlite.org/index.html",
+    name: "MySQL",
+    img: "https://webartesanal.com/wp-content/webp-express/webp-images/uploads/2013/07/articulos-tecnicos-y-tutoriales-sobre-mysql.jpg.webp",
+    link: "https://www.mysql.com/",
   },
   {
     name: "html5",
