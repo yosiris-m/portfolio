@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0ac545cb.chunk.css",
-    "main.js": "/portfolio/static/js/main.4a033426.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4a033426.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.da6b1332.chunk.css",
+    "main.js": "/portfolio/static/js/main.79f4c558.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.79f4c558.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a095d8a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a095d8a.js.map",
-    "static/js/2.1acc3a9f.chunk.js": "/portfolio/static/js/2.1acc3a9f.chunk.js",
-    "static/js/2.1acc3a9f.chunk.js.map": "/portfolio/static/js/2.1acc3a9f.chunk.js.map",
+    "static/js/2.53481867.chunk.js": "/portfolio/static/js/2.53481867.chunk.js",
+    "static/js/2.53481867.chunk.js.map": "/portfolio/static/js/2.53481867.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.0ac545cb.chunk.css.map": "/portfolio/static/css/main.0ac545cb.chunk.css.map",
-    "static/js/2.1acc3a9f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1acc3a9f.chunk.js.LICENSE.txt",
+    "static/css/main.da6b1332.chunk.css.map": "/portfolio/static/css/main.da6b1332.chunk.css.map",
+    "static/js/2.53481867.chunk.js.LICENSE.txt": "/portfolio/static/js/2.53481867.chunk.js.LICENSE.txt",
     "static/media/ShareExpense.4345e357.png": "/portfolio/static/media/ShareExpense.4345e357.png",
     "static/media/buscador_serie.247d5a76.png": "/portfolio/static/media/buscador_serie.247d5a76.png",
     "static/media/card.8db6460a.png": "/portfolio/static/media/card.8db6460a.png",
@@ -19,12 +19,12 @@
     "static/media/maquetacion_web.89af490f.png": "/portfolio/static/media/maquetacion_web.89af490f.png",
     "static/media/planet_express.c30af496.png": "/portfolio/static/media/planet_express.c30af496.png",
     "static/media/rick_morty.8b3122ec.png": "/portfolio/static/media/rick_morty.8b3122ec.png",
-    "static/media/yosi_photo.f6e350f0.jpg": "/portfolio/static/media/yosi_photo.f6e350f0.jpg"
+    "static/media/yosi_photo.6c08c3bc.jpg": "/portfolio/static/media/yosi_photo.6c08c3bc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a095d8a.js",
-    "static/js/2.1acc3a9f.chunk.js",
-    "static/css/main.0ac545cb.chunk.css",
-    "static/js/main.4a033426.chunk.js"
+    "static/js/2.53481867.chunk.js",
+    "static/css/main.da6b1332.chunk.css",
+    "static/js/main.79f4c558.chunk.js"
   ]
 }
