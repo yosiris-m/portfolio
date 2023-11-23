@@ -17,9 +17,9 @@ function AboutMe() {
             <span>Actualmente sigo formándome en un : </span> <i>Grado superior en Desarrollo de Aplicaciones Web.</i>
           </p>
           <p>
-           <span>Tengo 1 año y 6 meses de experiencia laboral como desarrolladora web, durante este tiempo he tenido la oportunidad de trabajar en HeyTrade(Startup sector inversiones)
-             y en SopraHR(Consultora de servicios HR).  </span> 
-           <span>  Actualmente estoy buscando una oportunidad laboral que me permita seguir desarrollándome como programadora.
+           <span>En corta experiencia laboral en el sector IT he tenido la oportunidad de trabajar en HeyTrade(Startup sector inversiones)
+             y en SopraHR(Consultora de servicios HR) de la mano de grandes compañeros creando, refactorizando y actualizando código.  </span> 
+           <span>  Actualmente estoy buscando una oportunidad laboral, compañeros molones con los que pueda  seguir aprendiendo y compartiendo en este mundillo.
            </span> 
 
           </p>

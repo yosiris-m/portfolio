@@ -8,22 +8,34 @@
 
   @media all and (min-width: 768px) {
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 3rem;
+    row-gap: 1.5rem;
   }
 
   @media all and (min-width: 1220px) {
-    row-gap: 2rem;
+    row-gap: 1.5rem;
   }
 }
 
 .image {
   width: 3rem;
+  margin-top: 0.6rem;
 
   @media all and (min-width: 768px) {
-    width: 5rem;
+    width: 4rem;
+    margin-top: 1rem;
   }
 }
 
 .item {
+  height: 4.5rem;
   text-align: center;
+  background-color: white;
+  margin-left: 2rem;
+
+  @media all and (min-width: 768px) {
+   height: 6rem;
+   width: 8rem;
+   border-radius: 5%;
+  }
 }
+

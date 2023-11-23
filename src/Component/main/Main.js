@@ -7,15 +7,14 @@ import Technology from "./Tecnology/Technology";
 function Main({ projectsList }) {
   return (
     <main className={styles.main}>
-      <h2 id="projects" className={styles.subtitle}>
-        Proyectos
-      </h2>
-      <ProjectList projectList={projectsList} />
-
       <h2 id="tools" className={styles.subtitle}>
-        Herramientas
+        Tecnologías con las que he trabajado
       </h2>
       <Technology />
+      <h2 id="projects" className={styles.subtitle}>
+        Proyectos personales
+      </h2>
+      <ProjectList projectList={projectsList} />
 
       <h2 id="aboutMe" className={styles.subtitle}>
         Acerca de mí

@@ -1,8 +1,13 @@
 const tools = [
   {
     name: "javascript",
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "typeScript",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png",
+    link: "https://www.typescriptlang.org/",
   },
   {
     name: "react",
@@ -16,7 +21,7 @@ const tools = [
   },
   {
     name: "nodejs",
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+    img: "https://midu.dev/images/tags/node.png",
     link: "https://nodejs.org",
   },
   {
@@ -36,7 +41,7 @@ const tools = [
   },
   {
     name: "sass",
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg",
+    img: "https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/288_Sass-512.png",
     link: "https://sass-lang.com",
   },
   {
