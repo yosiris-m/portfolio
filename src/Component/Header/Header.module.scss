@@ -1,19 +1,16 @@
 @import "../../styles/core/variables";
-@import "../../styles/core/mixins";
 
 .headerBox {
   color: black;
- // background-image: url("../../images/hero_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   
 }
 
-.hero {
-  
+.hero { 
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content:flex-start;
   align-items: center;
   height: 100vh;
   background: radial-gradient(circle, gray);
@@ -30,22 +27,11 @@
  
 }
 
-
-.titlePicture{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.job{
-  width: 48%;
-}
 .titlename{
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  //margin-bottom: 4rem;
 
 
   @media all and (min-width: 768px) {
@@ -113,10 +99,8 @@
     margin-left: 1rem;
   }
 }
-.description {
-  font-family: $font-family;
-  font-size: 1.1rem;
-}
+
+
 
 .job {
   font-family: $font-family;
@@ -126,13 +110,3 @@
 }
 
 
-
-@keyframes down {
-  0% {
-    transform: translateY(-20%);
-  }
-
-  100% {
-    transform: translateY(0%);
-  }
-}

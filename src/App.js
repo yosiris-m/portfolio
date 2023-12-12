@@ -5,7 +5,6 @@ import Main from "./Component/main/Main";
 import { BrowserRouter as Router } from "react-router-dom";
 import projectsList from "./data/list_projects";
 import Footer from "./Component/Footer";
-// import NavBar from "./Component/Header/NavBar";
 
 function App() {
   return (

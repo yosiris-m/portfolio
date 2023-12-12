@@ -24,13 +24,6 @@ function Header() {
             <img className={styles.photo} src={photo} alt="Yosiris face" />
                    
           </div>
-
-        
-          {/*<a href="#projects">
-            <div className={styles.btnGoDown}>
-              <i className="fas fa-chevron-down"></i>
-            </div>
-          </a>*/}
           <LinkContact /> 
         </div>
          

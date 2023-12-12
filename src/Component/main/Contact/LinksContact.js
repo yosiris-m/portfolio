@@ -1,4 +1,5 @@
 import styles from "../Contact/LinksContact.module.scss";
+import pdf from "../Contact/pdf/yosiris_cv.pdf";
 
 function LinkContact() {
   return (
@@ -24,10 +25,10 @@ function LinkContact() {
         </span>
       </a>
       <a
-        href="./public/yosiris_cv.pdf"
+        href={pdf}
         target="_blank"
         rel=" noopener noreferrer"
-        download="CV_yosiris.pdf"
+        download="yosiris_cv.pdf"
         className={styles.nav}
       >
         <span className={styles.mailLink}>
