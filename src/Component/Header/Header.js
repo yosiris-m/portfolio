@@ -1,12 +1,11 @@
 import styles from "./Header.module.scss";
 import photo from "../../images/yosi_photo.jpg";
 import LinkContact from "../main/Contact/LinksContact";
-import NavBar from "./NavBar";
 
 function Header() {
   return (
     <>
-      <NavBar />
+      
       <section className={styles.headerBox} id="inicio">
         <div className={styles.hero}>
           <div className={styles.titlename}>
@@ -16,13 +15,14 @@ function Header() {
               <p className={styles.webTitle}>
                 <strong>Junior Web Developer</strong>
               </p>
-              <p className={styles.job}>
+              <span className={styles.job}>
                 Actualmente estoy en búsqueda de una nueva oportunidad laboral
                 en la que pueda seguir desarrollándome tanto en Back como en
                 Front.
-              </p>
+              </span>
             </div>
-            <img className={styles.photo} src={photo} alt="Yosiris face" />        
+            <img className={styles.photo} src={photo} alt="Yosiris face" />
+                   
           </div>
 
         

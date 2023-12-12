@@ -13,19 +13,18 @@
   
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
- // margin-top: 6rem;
   height: 100vh;
   background: radial-gradient(circle, gray);
   position: relative;
   min-height: 34rem;
 
   @media all and (min-width: 768px) {
-    max-width: 80%;
+    min-width: 60rem;
     margin-top: 0;
     flex-direction: row;
-    margin: 0 1rem 0 1rem;
+    margin: 0 0 0 1rem;
    
   }
  
@@ -59,14 +58,14 @@
 
 } 
 .webTitle{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 
 .title {  
   margin-top: 0;
   padding-top: 1rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
   font-family: $font-title;
   color: transparent;
@@ -76,8 +75,8 @@
   background-size: 500%;  
 
   @media all and (min-width: 768px) {
-    font-size: 5rem;
-     height: 5rem;
+    font-size: 3rem;
+     height: 2rem;
   }
 
 
@@ -98,7 +97,7 @@
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  margin-left: 7rem;
+  margin-left: 8rem;
   
 }
 
@@ -108,6 +107,11 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+
+   @media all and (min-width: 768px) {
+    margin-right: 5rem;
+    margin-left: 1rem;
+  }
 }
 .description {
   font-family: $font-family;
@@ -116,8 +120,9 @@
 
 .job {
   font-family: $font-family;
-  font-size: 1.3rem;
-  padding-top: 1.3rem;
+  font-size: 0.95rem;
+  font-family: 'Open Sans';
+  width: 27.5rem;
 }
 
 

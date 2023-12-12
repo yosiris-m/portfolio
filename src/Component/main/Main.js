@@ -3,10 +3,12 @@ import ProjectList from "./Projects/ProjectList";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact/Contact";
 import Technology from "./Tecnology/Technology";
+import NavBar from "../Header/NavBar";
 
 function Main({ projectsList }) {
   return (
     <main className={styles.main}>
+      <NavBar />
       <h2 id="tools" className={styles.subtitle}>
         Tecnologías con las que he trabajado
       </h2>
