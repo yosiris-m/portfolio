@@ -3,69 +3,115 @@
 
 .headerBox {
   color: black;
-  background-image: url("../../images/hero_bg.jpg");
+ // background-image: url("../../images/hero_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  
 }
 
 .hero {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+ // margin-top: 6rem;
   height: 100vh;
-  background: radial-gradient(circle, $color-giro0, $color-giro01);
+  background: radial-gradient(circle, gray);
   position: relative;
   min-height: 34rem;
 
   @media all and (min-width: 768px) {
-    background: radial-gradient(circle, $color-giro1, $color-giro1-1);
+    max-width: 80%;
+    margin-top: 0;
+    flex-direction: row;
+    margin: 0 1rem 0 1rem;
+   
   }
-
-  @media all and (min-width: 768px) {
-    height: 100vh;
-  }
+ 
 }
 
-.title {
-  margin-top: 0;
-  font-size: 2rem;
-  font-family: $font-title;
-}
-.photo {
-  height: 160px;
-  border-radius: 50%;
-  box-shadow: $colorBoxShadowPhot;
-}
 
-.code {
+.titlePicture{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+}
 
-  & i {
-    color: $colorBoxName;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    font-size: 1rem;
+.job{
+  width: 48%;
+}
+.titlename{
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //margin-bottom: 4rem;
+
+
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+   margin-right: 2rem;
+
+    
+  }
+
+} 
+.webTitle{
+  font-size: 1.5rem;
+}
+
+
+.title {  
+  margin-top: 0;
+  padding-top: 1rem;
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+  font-family: $font-title;
+  color: transparent;
+  background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+  background-clip: text;
+  animation: color 3s linear infinite;
+  background-size: 500%;  
+
+  @media all and (min-width: 768px) {
+    font-size: 5rem;
+     height: 5rem;
+  }
+
+
+}
+
+@keyframes color {
+  from {
+      background-position: 0% 50%;
+  }
+
+  to {
+      background-position: 100% 50%;
   }
 }
 
-.name {
-  margin: 0;
-  font-size: 1.5rem;
-  font-family: $font-family;
+
+.photo {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  margin-left: 7rem;
+  
 }
 
+
+.descript{
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 .description {
   font-family: $font-family;
-  text-align: center;
-  padding: 0 1rem;
   font-size: 1.1rem;
-  max-width: 40rem;
 }
 
 .job {
@@ -74,14 +120,7 @@
   padding-top: 1.3rem;
 }
 
-.btnGoDown {
-  position: absolute;
-  bottom: 0.5rem;
-  padding-top: 2rem;
-  font-size: 1.5rem;
-  color: $color-btnGo;
-  animation: down 0.5s alternate infinite ease-in;
-}
+
 
 @keyframes down {
   0% {

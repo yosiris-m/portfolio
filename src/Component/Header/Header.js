@@ -9,22 +9,32 @@ function Header() {
       <NavBar />
       <section className={styles.headerBox} id="inicio">
         <div className={styles.hero}>
-          <h1 className={styles.title}>Hola mundo!</h1>
-          <div>
-            <img className={styles.photo} src={photo} alt="Yosiris face" />
+          <div className={styles.titlename}>
+            <div className={styles.descript}>
+              <h1 className={styles.title}>Hola mundo!</h1>
+              <p className={styles.name}>Soy... Yosiris Mariñez Cabrera</p>
+              <p className={styles.webTitle}>
+                <strong>Junior Web Developer</strong>
+              </p>
+              <p className={styles.job}>
+                Actualmente estoy en búsqueda de una nueva oportunidad laboral
+                en la que pueda seguir desarrollándome tanto en Back como en
+                Front.
+              </p>
+            </div>
+            <img className={styles.photo} src={photo} alt="Yosiris face" />        
           </div>
-            <p className={styles.name}>Soy... Yosiris Mariñez Cabrera</p>
-          <div className={styles.description}>
-            <div className={styles.job}><span>👨🏻‍💻Programadora    </span><strong>Front-end Developer</strong> actualmente estoy en búsqueda 
-            de una nueva oportunidad laboral en la que pueda seguir desarrollándome tanto en Back como en Front. </div>
-          </div>
-          <LinkContact />
-          <a href="#projects">
+
+        
+          {/*<a href="#projects">
             <div className={styles.btnGoDown}>
               <i className="fas fa-chevron-down"></i>
             </div>
-          </a>
+          </a>*/}
+          <LinkContact /> 
         </div>
+         
+           
       </section>
     </>
   );

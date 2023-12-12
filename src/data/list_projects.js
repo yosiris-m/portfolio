@@ -12,7 +12,7 @@ const projectsList = [
     id: 1,
     title: "InfinityCash",
     description:
-      "App que permite crear y agregar transacciones. De manera que puedas llevar control sobre los gastos y los ingresos por mes. Aún en construcción.",
+      "App que permite crear y agregar transacciones. De manera que puedas llevar control sobre los gastos y los ingresos por mes.",
     urlGit: "https://github.com/yosiris-m/infinity-cash-app",
     urlPage: "https://yosiris-m.github.io/infinity-cash-app/",
     img: infinityCash,
@@ -20,11 +20,11 @@ const projectsList = [
   },
   {
     id: 2,
-    title: "WillyWonka_factory",
+    title: "WillyWonka",
     description:
       "Este proyecto para mostrar los helados Willy Wonk donde puedes añadir a favoritos, filtrar por sabores y eliminar de favoritos.                         ",
     urlGit: "https://github.com/yosiris-m/WillyWonka_factory",
-    //urlPage: "",
+    urlPage: "https://github.com/yosiris-m/WillyWonka_factory",
     img: WillyWonka,
     tools: "JavaScript, React,NodeJs, CSS",
   },
@@ -44,6 +44,7 @@ const projectsList = [
     description:
       "Sitio web para compartir experiencias sobre viajes en ciudades de todo el mundo.",
     urlGit: "https://github.com/yosiris-m/travel_blog",
+    urlPage: "https://github.com/yosiris-m/travel_blog",
     img: TravelBlog,
     tools: "TypeScript, React, Jest, NodeJs, CSS, Docker",
   },
@@ -52,8 +53,9 @@ const projectsList = [
     id: 5,
     title: "LikesNotLikes",
     description:
-      "Maquetación responsive que permite dar likes a images, con scroll infinito.",
+      "Maquetación responsive creada haciendo uso de photoshop. Permite dar y mostrar los likes a images, con scroll infinito.",
     urlGit: "https://github.com/yosiris-m/likesNotLikes",
+    urlPage:  "https://github.com/yosiris-m/likesNotLikes",
     img: LikesNotLikes,
     tools: "JavaScript, React, Sass, Jest",
   }, 
@@ -63,7 +65,7 @@ const projectsList = [
     description:
       "Tienda online de artículos de la serie Planet Express. Se pueden filtrar los artículos, añadirlos a la cesta y ver los detalles  de la compra.",
     urlGit: "https://github.com/yosiris-m/planetExpress_app",
-    urlPage: "https://yosiris-m.github.io/enthec_planetExpress_app/",
+    urlPage: "https://github.com/yosiris-m/planetExpress_app",
     img: planet,
     tools: "JavaScript, React, Sass",
   },

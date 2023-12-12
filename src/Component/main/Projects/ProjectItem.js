@@ -24,7 +24,7 @@ function ProjectItem({ item }) {
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fas fa-external-link-alt"></i>
+          <i className="fa-solid fa-link"></i>
         </a>
       </div>
     </div>

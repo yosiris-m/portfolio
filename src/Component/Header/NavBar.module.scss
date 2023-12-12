@@ -1,108 +1,41 @@
 @import "../../styles/core/variables";
 
-.menu {
-  position: fixed;
-  font-size: 1.5rem;
-  color: $colorMenu-a;
-  padding: 0.5rem 0.5rem;
-  cursor: pointer;
-  z-index: 10;
 
-  &:hover {
-    color: $color-bg;
-  }
+.tols { 
+  display: flex;
+  flex-direction: row;
 
-  @media all and (min-width: 768px) {
-    padding: 0.7rem 1.6rem;
-    font-size: 2rem;
-  }
-}
-
-.panel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 15rem;
-  background-color: $background-panel;
-  height: 100vh;
-  z-index: 2;
-  font-family: $font-family-N;
-  transition: all 0.5s ease;
-
-  &.closed {
-    left: -20rem;
-  }
-}
-
-.closeBtn {
-  cursor: pointer;
-  padding: 1rem;
-  float: right;
-  color: $color-w;
-}
-
-.closed {
-  color: $colorClose;
-  margin-left: 2px;
-  padding-left: 10px;
 }
 
 .linksBox {
-  line-height: 50px;
-  margin-top: 5rem;
-  padding: 1rem;
-  list-style-type: none;
+  position: fixed;
+  top: 0;
+  right: 1rem;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+  background-color: rgb(77, 74, 74);
+
+  
 
   & a {
     text-decoration: none;
-    color: $colorMenu-a;
-  }
-
-  & li {
-    width: 100%;
-    font-size: 1.1rem;
-    border-bottom: 0.1rem solid transparent;
-
-    // font-weight: bold;
+    color: rgb(158, 192, 241);
+    padding: 1rem;
+    border-bottom: 0.08rem solid transparent;
 
     @media all and (min-width: 768px) {
       font-size: 1.2rem;
     }
   }
 
-  & li:hover {
-    background-color: $colorHoverNav;
-    color: $color-w;
+  & a:hover {
+    color: #000; 
+    border-bottom-color: #000; 
   }
-
-  & li i {
-    width: 3rem;
-    text-align: center;
-    font-size: 1.3rem;
-    padding-right: 1.4rem;
-
-    @media all and (min-width: 768px) {
-      font-size: 1.5rem;
-    }
-  }
+  
 }
 
-.shield {
-  background-color: rgba(0, 0, 0, 0.2);
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: 1;
-}
 
-.flower {
-  margin-top: 8rem;
-  text-align: center;
-
-  & i {
-    font-size: 10rem;
-    color: $color-Flower;
-  }
-}
