@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.da6b1332.chunk.css",
-    "main.js": "/portfolio/static/js/main.79f4c558.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.79f4c558.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.201ac4e3.chunk.css",
+    "main.js": "/portfolio/static/js/main.1938cad6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1938cad6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a095d8a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a095d8a.js.map",
-    "static/js/2.53481867.chunk.js": "/portfolio/static/js/2.53481867.chunk.js",
-    "static/js/2.53481867.chunk.js.map": "/portfolio/static/js/2.53481867.chunk.js.map",
+    "static/js/2.8c0251e8.chunk.js": "/portfolio/static/js/2.8c0251e8.chunk.js",
+    "static/js/2.8c0251e8.chunk.js.map": "/portfolio/static/js/2.8c0251e8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.da6b1332.chunk.css.map": "/portfolio/static/css/main.da6b1332.chunk.css.map",
-    "static/js/2.53481867.chunk.js.LICENSE.txt": "/portfolio/static/js/2.53481867.chunk.js.LICENSE.txt",
+    "static/css/main.201ac4e3.chunk.css.map": "/portfolio/static/css/main.201ac4e3.chunk.css.map",
+    "static/js/2.8c0251e8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8c0251e8.chunk.js.LICENSE.txt",
     "static/media/ShareExpense.4345e357.png": "/portfolio/static/media/ShareExpense.4345e357.png",
     "static/media/buscador_serie.247d5a76.png": "/portfolio/static/media/buscador_serie.247d5a76.png",
-    "static/media/card.8db6460a.png": "/portfolio/static/media/card.8db6460a.png",
-    "static/media/family_app.fb872fc6.png": "/portfolio/static/media/family_app.fb872fc6.png",
     "static/media/foto1.580ea469.jpg": "/portfolio/static/media/foto1.580ea469.jpg",
-    "static/media/Header.module.scss": "/portfolio/static/media/hero_bg.46f4316b.jpg",
-    "static/media/maquetacion_web.89af490f.png": "/portfolio/static/media/maquetacion_web.89af490f.png",
+    "static/media/infinity_cash.a9f66290.png": "/portfolio/static/media/infinity_cash.a9f66290.png",
+    "static/media/likes.c00533a2.png": "/portfolio/static/media/likes.c00533a2.png",
     "static/media/planet_express.c30af496.png": "/portfolio/static/media/planet_express.c30af496.png",
     "static/media/rick_morty.8b3122ec.png": "/portfolio/static/media/rick_morty.8b3122ec.png",
+    "static/media/travelBlog.1f52b99f.png": "/portfolio/static/media/travelBlog.1f52b99f.png",
+    "static/media/willy_wonka.bf9c1799.png": "/portfolio/static/media/willy_wonka.bf9c1799.png",
     "static/media/yosi_photo.6c08c3bc.jpg": "/portfolio/static/media/yosi_photo.6c08c3bc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6a095d8a.js",
-    "static/js/2.53481867.chunk.js",
-    "static/css/main.da6b1332.chunk.css",
-    "static/js/main.79f4c558.chunk.js"
+    "static/js/2.8c0251e8.chunk.js",
+    "static/css/main.201ac4e3.chunk.css",
+    "static/js/main.1938cad6.chunk.js"
   ]
 }
