@@ -1,11 +1,10 @@
-import photo from "../../images/foto1.jpg";
+
 import styles from "../main/AboutMe.module.scss";
 
 function AboutMe() {
   return (
     <div className={styles.container}>
       <div className={styles.description}>
-        {/* <img src={photo} className={styles.photo} alt="Foto de yosiris" /> */}
         <div className={styles.BoxDescription}>
           <p>
             Soy de alma libre, amante de los colores y defensora de la
