@@ -9,7 +9,7 @@ function NavBar({activeLink, onLinkClick}) {
     { id: 'contact', label: 'Contacto' },
   ];
 
-  const showInitLink = navLinks.slice(1).some(link => link.id === activeLink);
+  const showInitLink = navLinks.slice(0).some(link => link.id === activeLink);
   return (
     <div className={styles.tols}>
       <div className={styles.linksBox}>
