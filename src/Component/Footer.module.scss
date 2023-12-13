@@ -19,6 +19,14 @@
   background-clip: text;
   animation: color 3s linear infinite;
   background-size: 500%; 
+  font-size: 0.8rem;
+
+  @media all and (min-width: 768px) {
+    font-size: 0.9rem;
+   
+  }
+ 
+
 }
 
 @keyframes color {

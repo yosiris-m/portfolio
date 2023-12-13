@@ -3,7 +3,7 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <span className={styles.by}>
-        Made with <i className={`fas fa-heart ${styles.heart}`}></i> by Yosiris Mariñez
+      By <i className={`fas fa-heart ${styles.heart}`}></i><i> Yosiris m..</i> 
       </span>
     </div>
   );

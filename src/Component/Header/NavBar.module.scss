@@ -19,12 +19,18 @@
   justify-content: right;
   width: 100%;
   background-color: rgb(77, 74, 74);
-  font-size: 0.7rem;
+  font-size: 1rem;
 
   @media all and (min-width: 768px) {
     font-size: 1rem;
   }
 
+  @media all and (max-width: 653px) {
+    font-size: 0.7rem;
+   
+  }
+ 
+  
   
 
   & a {

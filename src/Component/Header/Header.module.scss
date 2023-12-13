@@ -8,19 +8,25 @@
 }
 
 .hero { 
- 
+  margin-top: 2rem;
   height: 100vh;
   background: radial-gradient(circle, gray);
   position: relative;
   min-height: 34rem;
 
-
+   
+  @media all and (max-width: 653px) {
+    margin-top: 0.2rem;
+   
+  }
+  
+ 
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:flex-start;
-    min-width: 60rem;
+    //min-width: 60rem;
     margin-top: 0;
     flex-direction: row;
     margin: 0 0 0 1rem;
@@ -65,6 +71,11 @@
   animation: color 3s linear infinite;
   background-size: 500%;  
 
+  @media all and (max-width: 667px) {
+    padding-top: 0;
+    font-size: 2rem;
+   
+  }
   @media all and (min-width: 768px) {
     padding-top: 1rem;
     font-size: 3rem;
@@ -94,10 +105,16 @@
   @media all and (min-width: 768px) {
     height: 14rem;
   width: 14rem;
-  margin-left: 8rem;
+  margin-left: 6rem;
   margin-top: 0;
   }
   
+  @media all and (max-width: 653px) {
+    height: 12rem;
+    width: 12rem;
+   
+  }
+ 
 }
 
 
@@ -126,7 +143,7 @@
 
   @media all and (min-width: 768px) {
     width: 27.5rem;
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   
 }

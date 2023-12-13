@@ -11,15 +11,15 @@ function Header() {
           <div className={styles.titlename}>
             <div className={styles.descript}> 
               <h1 className={styles.title}>Hola mundo!</h1>
-              <p className={styles.name}>Soy... Yosiris Mariñez Cabrera</p>
+              <p className={styles.name}><i>Soy... Yosiris Mariñez Cabrera</i></p>
               <p className={styles.webTitle}>
                 <strong>Junior Web Developer</strong>
               </p>
-              <span className={styles.job}>
+              <i className={styles.job}>
                 Actualmente estoy en búsqueda de una nueva oportunidad laboral
                 en la que pueda seguir desarrollándome tanto en Back como en
                 Front.
-              </span>
+              </i>
             </div>
             <img className={styles.photo} src={photo} alt="Yosiris face" />
           </div>
