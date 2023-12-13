@@ -24,19 +24,29 @@
   & a {
     text-decoration: none;
     color:  #3498db;
-    padding: 1rem;
-    border-bottom: 0.08rem solid transparent;
+    padding: 0.5rem;
+   
 
     @media all and (min-width: 768px) {
       font-size: 1rem;
     }
   }
 
+  
   & a:hover {
     color: #ffffff; 
+  }
+
+  & span:hover {
+    color: #ffffff; 
     border-bottom-color: #ffffff; 
+
   }
   
 }
 
+
+.linksBox .click {
+  color: white;
+}
 

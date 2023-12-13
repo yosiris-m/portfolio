@@ -8,16 +8,17 @@
 }
 
 .hero { 
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-start;
-  align-items: center;
+ 
   height: 100vh;
   background: radial-gradient(circle, gray);
   position: relative;
   min-height: 34rem;
 
   @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
     min-width: 60rem;
     margin-top: 0;
     flex-direction: row;
@@ -45,14 +46,16 @@
 } 
 .webTitle{
   font-size: 1.2rem;
+  
 }
 
 
 .title {  
   margin-top: 0;
-  padding-top: 1rem;
+  padding-top: 3rem;
   margin-bottom: 1rem;
-  font-size: 2rem;
+  height: 2rem;
+  font-size: 3rem;
   font-family: $font-title;
   color: transparent;
   background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
@@ -61,8 +64,8 @@
   background-size: 500%;  
 
   @media all and (min-width: 768px) {
+    padding-top: 1rem;
     font-size: 3rem;
-     height: 2rem;
   }
 
 
@@ -80,10 +83,18 @@
 
 
 .photo {
-  height: 15rem;
-  width: 15rem;
+  height: 13rem;
+  width: 13rem;
   border-radius: 50%;
+  margin-top: 3rem;
+  
+
+  @media all and (min-width: 768px) {
+    height: 14rem;
+  width: 14rem;
   margin-left: 8rem;
+  margin-top: 0;
+  }
   
 }
 
@@ -93,8 +104,10 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin-top: 6rem;
 
    @media all and (min-width: 768px) {
+    margin-top:0;
     margin-right: 5rem;
     margin-left: 1rem;
   }
@@ -103,10 +116,18 @@
 
 
 .job {
+  text-align: center;
   font-family: $font-family;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-family: 'Open Sans';
-  width: 27.5rem;
+  width: 100%;
+
+  @media all and (min-width: 768px) {
+    width: 27.5rem;
+    font-size: 0.95rem;
+  }
+  
 }
+
 
 

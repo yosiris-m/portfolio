@@ -1,42 +1,39 @@
 
 import styles from "./NavBar.module.scss";
 
-function NavBar() {
-  
+function NavBar({activeLink, onLinkClick}) {
+  const navLinks = [
+    { id: 'aboutMe', label: 'Acerca de mí' },
+    { id: 'projects', label: 'Proyectos' },
+    { id: 'tools', label: 'Herramientas' },
+    { id: 'contact', label: 'Contacto' },
+  ];
 
+  const showInitLink = navLinks.slice(1).some(link => link.id === activeLink);
   return (
-    
-    
-      <div className={styles.tols}>
-        <div className={styles.linksBox}>
-          <a href="#projects">
-            <span className={styles.list}>
-             Proyectos
-            </span>
+    <div className={styles.tols}>
+      <div className={styles.linksBox}>
+      {showInitLink && (
+          <a
+            href="#init"
+            onClick={() => onLinkClick('init')}
+            className={`${activeLink === 'init' ? styles.click : ''}`}
+          >
+            <span>Inicio</span>
           </a>
-
-          <a href="#tools">
-            <span>
-              Herramientas
-            </span>
+        )}
+        {navLinks.map((link) => (
+          <a
+            key={link.id}
+            href={`#${link.id}`}
+            onClick={() => onLinkClick(link.id)}
+            className={`${activeLink === link.id ? styles.click : ""}`}
+          >
+            <span>{link.label}</span>
           </a>
-
-          <a href="#aboutMe">
-            <span>
-              Acerca de mí
-            </span>
-          </a>
-          <a href="#contacto" className={styles.mg}>
-            <span>
-             Contacto
-            </span>
-          </a>
-         
-        </div>
+        ))}
       </div>
-     
-  
-  );
+    </div>)
 }
 
 export default NavBar;

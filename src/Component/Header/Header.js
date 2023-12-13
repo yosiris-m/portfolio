@@ -4,12 +4,12 @@ import LinkContact from "../main/Contact/LinksContact";
 
 function Header() {
   return (
-    <>
+    <>    
+      <section className={styles.headerBox} id="init">
       
-      <section className={styles.headerBox} id="inicio">
         <div className={styles.hero}>
           <div className={styles.titlename}>
-            <div className={styles.descript}>
+            <div className={styles.descript}> 
               <h1 className={styles.title}>Hola mundo!</h1>
               <p className={styles.name}>Soy... Yosiris Mariñez Cabrera</p>
               <p className={styles.webTitle}>
@@ -22,12 +22,9 @@ function Header() {
               </span>
             </div>
             <img className={styles.photo} src={photo} alt="Yosiris face" />
-                   
           </div>
           <LinkContact /> 
-        </div>
-         
-           
+        </div> 
       </section>
     </>
   );

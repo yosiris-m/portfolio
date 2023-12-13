@@ -1,9 +1,9 @@
-import  "./Footer.module.scss";
+import styles from  "./Footer.module.scss";
 function Footer() {
   return (
-    <div className="footer">
-      <span>
-        Made with <i className="fas fa-heart"></i> by Yosiris Mariñez
+    <div className={styles.footer}>
+      <span className={styles.by}>
+        Made with <i className={`fas fa-heart ${styles.heart}`}></i> by Yosiris Mariñez
       </span>
     </div>
   );
