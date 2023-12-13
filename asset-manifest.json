@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2fb598ca.chunk.css",
-    "main.js": "/portfolio/static/js/main.9a3f7b0e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9a3f7b0e.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b9cf703b.chunk.css",
+    "main.js": "/portfolio/static/js/main.0317d66d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0317d66d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.6a095d8a.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a095d8a.js.map",
     "static/js/2.98524a61.chunk.js": "/portfolio/static/js/2.98524a61.chunk.js",
     "static/js/2.98524a61.chunk.js.map": "/portfolio/static/js/2.98524a61.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.2fb598ca.chunk.css.map": "/portfolio/static/css/main.2fb598ca.chunk.css.map",
+    "static/css/main.b9cf703b.chunk.css.map": "/portfolio/static/css/main.b9cf703b.chunk.css.map",
     "static/js/2.98524a61.chunk.js.LICENSE.txt": "/portfolio/static/js/2.98524a61.chunk.js.LICENSE.txt",
     "static/media/ShareExpense.4345e357.png": "/portfolio/static/media/ShareExpense.4345e357.png",
     "static/media/buscador_serie.247d5a76.png": "/portfolio/static/media/buscador_serie.247d5a76.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.6a095d8a.js",
     "static/js/2.98524a61.chunk.js",
-    "static/css/main.2fb598ca.chunk.css",
-    "static/js/main.9a3f7b0e.chunk.js"
+    "static/css/main.b9cf703b.chunk.css",
+    "static/js/main.0317d66d.chunk.js"
   ]
 }
