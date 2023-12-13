@@ -29,8 +29,8 @@ function Main({ projectsList }) {
       <spam id="projects"></spam>
       <h2 className={styles.subtitle}>Proyectos personales</h2>
       <ProjectList projectList={projectsList} />
-      <spam></spam>
-      <h2 id="aboutMe" className={styles.subtitle}>
+      <spam id="aboutMe"></spam>
+      <h2  className={styles.subtitle}>
         Acerca de mí
       </h2>
       <AboutMe />
