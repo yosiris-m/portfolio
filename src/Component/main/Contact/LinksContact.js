@@ -1,7 +1,14 @@
+import { useTranslation } from "react-i18next";
 import styles from "../Contact/LinksContact.module.scss";
-import pdf from "../Contact/pdf/yosiris_cv.pdf";
+import pdfEnglish from "../Contact/pdf/yosiris_cv.pdf";
+import pdfSpanish from "../Contact/pdf/yosirismc_en.pdf";
 
 function LinkContact() {
+
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language || "en";
+  const pdf =  currentLanguage === "en" ?   pdfSpanish : pdfEnglish;
+
   return (
     <div className={styles.boxContact}>
       <a
@@ -28,7 +35,7 @@ function LinkContact() {
         href={pdf}
         target="_blank"
         rel=" noopener noreferrer"
-        download="yosiris_cv.pdf"
+        download={`yosiris_cv_${currentLanguage}.pdf`}
         className={styles.nav}
       >
         <span className={styles.mailLink}>

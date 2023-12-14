@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "Hello World!",
+    "content": "I am... Yosiris Mariñez Cabrera",
+    "profession": "Junior Web Developer",
+    "description": "I am currently looking for a new job opportunity where I can continue to develop both in Back and Front..",
+
+    "navbar": {
+      "aboutMe": "About me",
+      "projects": "Projects",
+      "tools": "Tools",
+      "contact": "Contact"
+    }
+  },
+  "sumary": {
+    "tools": "Technologies with which I have worked",
+    "personalProjects": "Personal Projects",
+    "aboutMe": "About me",
+    "contact": "Contact",
+    "description": "App that allows you to create and add transactions. So you can keep track of expenses and income per month.",
+
+    "infinitycash": {
+      "description": "App that allows you to create and add transactions. So you can keep track of expenses and income per month."
+    },
+    "willywonka": {
+      "description": "This project to display Willy Wonk ice cream where you can add to favorites, filter by flavors and remove from favorites."
+    },
+    "sharedexpenses": {
+      "description": "App to share expenses. It allows you to create users, add payments, see the total spent and see how much each one has to pay or receive."
+    },
+    "travelblog": {
+      "description": "Website for sharing travel experiences in cities around the world."
+    },
+    "likesnotlikes": {
+      "description": "Responsive layout created using photoshop. Allows to give and show likes to images, with infinite scroll."
+    },
+    "planetexpress": {
+      "description": "Online store for items from the Planet Express series. You can filter the items, add them to the cart and view the details of the purchase."
+    },
+    "rickandmorty": {
+      "description": "Website where you can search, filter and see in detail the characters of the Rick and Morty series."
+    },
+    "seriessearch": {
+      "description": "Web application that allows you to search for series by name, view their title, create a list of favorites and remove them from favorites."
+    }
+  },
+  "aboutme": {
+    "description1": "I am a free soul, a lover of colors and an advocate of diversity. I like challenges and big changes",
+    "description2": "With a degree in Bioanalysis, after several years in healthcare, I decided to reinvent myself in the IT sector. I decided to reinvent myself in the IT sector. I started with an intensive Bootcamp where I learned my first steps in programming.",
+    "description3": "I am currently continuing my training in a",
+    "description4": "Higher Degree in Web Applications Development.",
+    "description5": "In my short work experience in the sector I have had the opportunity to work in HeyTrade(Startup investment sector) and SopraHR(HR services consulting) with great colleagues.",
+    "description6": "I am currently looking for a job opportunity where I can build and continue to grow in this world."
+  },
+
+  "contact": {
+    "text1": "If you think that I can add value to your company you can ...  ",
+    "text2": "contact me!",
+    "text3": "Write to me at"
+  }
+}

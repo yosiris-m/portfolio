@@ -3,13 +3,14 @@ import ProjectList from "./Projects/ProjectList";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact/Contact";
 import Technology from "./Tecnology/Technology";
-
 import { useState } from "react";
-import NavBar from "../Header/NavBar";
+import { useTranslation } from "react-i18next";
+import Header from "../Header/Header";
 
 function Main({ projectsList }) {
   const [init, setInit] = useState(false);
   const [activeLink, setActiveLink] = useState("");
+  const { t } = useTranslation();
 
   const handleLinkClick = (link) => {
     setActiveLink(link);
@@ -18,25 +19,25 @@ function Main({ projectsList }) {
 
   return (
     <main className={styles.main}>
-      <NavBar activeLink={activeLink} onLinkClick={handleLinkClick} />
-      <spam id="tools" className={`${styles.slide} ${styles.tools}`}></spam>
+     <Header activeLink={activeLink} handleLinkClick={handleLinkClick} />
+      <span id="tools" className={`${styles.slide} ${styles.tools}`}></span>
       <div className={styles.tecnoBox}>
         <h2 className={styles.subtitle}>
-          Tecnologías con las que he trabajado
+        {t('sumary.tools')}
         </h2>
         <Technology />
       </div>
-      <spam id="projects"></spam>
-      <h2 className={styles.subtitle}>Proyectos personales</h2>
+      <span id="projects"></span>
+      <h2 className={styles.subtitle}>  {t('sumary.personalProjects')}</h2>
       <ProjectList projectList={projectsList} />
-      <spam id="aboutMe"></spam>
+      <span id="aboutMe"></span>
       <h2  className={styles.subtitle}>
-        Acerca de mí
+      {t('sumary.aboutMe')}
       </h2>
       <AboutMe />
 
       <h2 id="contact" className={styles.subtitle}>
-        Contacto
+      {t('sumary.contact')}
       </h2>
       <Contact />
 

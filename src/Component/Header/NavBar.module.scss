@@ -1,24 +1,19 @@
 @import "../../styles/core/variables";
-
-
-.tols { 
-  display: flex;
-  flex-direction: row;
+.box{
+  width: 100%;
   background-color: rgb(77, 74, 74);
-  max-width: 100%;
-
-}
-
-.linksBox {
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1;
+  text-align: right;
+}
+
+
+.linksBox { 
   display: flex;
   flex-direction: row;
   justify-content: right;
-  width: 100%;
-  background-color: rgb(77, 74, 74);
   font-size: 1rem;
 
   @media all and (min-width: 768px) {
@@ -47,12 +42,28 @@
 
   
   & a:hover {
-    color: #ffffff; 
-  }
+    color: transparent;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;
 
+  }
+  @keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+  
+    to {
+        background-position: 100% 50%;
+    }
+  }
   & span:hover {
-    color: #ffffff; 
-    border-bottom-color: #ffffff; 
+    color: transparent;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;
 
   }
   
@@ -60,6 +71,10 @@
 
 
 .linksBox .click {
-  color: white;
+  color: transparent;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;
 }
 

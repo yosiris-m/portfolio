@@ -1,25 +1,22 @@
 
+import { useTranslation } from "react-i18next";
 import styles from "../main/AboutMe.module.scss";
 
 function AboutMe() {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.container}>
       <div className={styles.description}>
         <div className={styles.BoxDescription}>
+          <p> {t('aboutme.description1')} </p>        
           <p>
-            Soy de alma libre, amante de los colores y defensora de la
-            diversidad. Me gustan los retos y los grandes cambios.
+           <span><p> {t('aboutme.description2')} </p>  </span> 
+            <span> {t('aboutme.description3')} </span> <strong>{t('aboutme.description4')}</strong>
           </p>
           <p>
-           <span>Licenciada en Bioanálisis, tras varios años en el área de la sanidad
-            decidí reinventarme al sector IT. Empecé con un Bootcamp intensivo dónde aprendí mis primeros pasos en programación.  </span> 
-            <span>Actualmente sigo formándome en un </span> <strong>Grado superior en Desarrollo de Aplicaciones Web.</strong>
-          </p>
-          <p>
-           <span>En mi corta experiencia laboral en el sector he tenido la oportunidad de trabajar en HeyTrade(Startup sector inversiones)
-             y en SopraHR(Consultora de servicios HR) de la mano de grandes compañeros. </span> 
-           <span>  Actualmente estoy buscando una oportunidad laboral en la que pueda construibuir y seguir creciendo en este mundillo.
-           </span> 
+           <span>{t('aboutme.description5')} </span> 
+           <span> {t('aboutme.description6')} </span>  
           </p>
         </div>
       </div>

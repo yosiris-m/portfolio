@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import { HashRouter } from "react-router-dom";
+import './i18n/index';
 
 ReactDOM.render(
-  <HashRouter>
+  <HashRouter >
     <App />
   </HashRouter>,
   document.getElementById("root")

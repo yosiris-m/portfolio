@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "Hola Mundo!",
+    "content": "Soy... Yosiris Mariñez Cabrera",
+    "profession": "Junior Web Developer",
+    "description": " Actualmente estoy en búsqueda de una nueva oportunidad laboral en la que pueda seguir desarrollándome tanto en Back como en Front.",
+
+    "navbar": {
+      "aboutMe": "Acerca de mí",
+      "projects": "Proyectos",
+      "tools": "Herramientas",
+      "contact": "Contacto"
+    }
+  },
+  "sumary": {
+    "tools": " Tecnologías con las que he trabajado",
+    "personalProjects": "Proyectos personales",
+    "aboutMe": "Acerca de mí",
+    "contact": "Contacto",
+
+    "infinitycash": {
+      "description": "App que permite crear y agregar transacciones. De manera que puedas llevar control sobre los gastos y los ingresos por mes."
+    },
+    "willywonka": {
+      "description": "Este proyecto para mostrar los helados Willy Wonk donde puedes añadir a favoritos, filtrar por sabores y eliminar de favoritos."
+    },
+    "sharedexpenses": {
+      "description": "App para compartir gastos. Permite crear usuarios, agregar pagos, ver el total gastado y ver cuanto tienen que pagar o recibir cada uno."
+    },
+    "travelblog": {
+      "description": "Sitio web para compartir experiencias sobre viajes en ciudades de todo el mundo."
+    },
+    "likesnotlikes": {
+      "description": "Maquetación responsive creada haciendo uso de photoshop. Permite dar y mostrar los likes a images, con scroll infinito."
+    },
+    "planetexpress": {
+      "description": "Tienda online de artículos de la serie Planet Express. Se pueden filtrar los artículos, añadirlos a la cesta y ver los detalles  de la compra."
+    },
+    "rickandmorty": {
+      "description": "Página web en la que puedes buscar, filtrar y ver con detalle los personajes de la serie Rick and Morty."
+    },
+    "seriessearch": {
+      "description": "Aplicación web que permite buscar series por nombre, ver su título, crear un listado de favoritas y eliminarlas de favoritas."
+    }
+  },
+
+  "aboutme": {
+    "description1": "Soy de alma libre, amante de los colores y defensora de la diversidad. Me gustan los retos y los grandes cambios.",
+    "description2": "Licenciada en Bioanálisis, tras varios años en el área de la sanidad decidí reinventarme al sector IT. Empecé con un Bootcamp intensivo dónde aprendí mis primeros pasos en programación.",
+    "description3": "Actualmente sigo formándome en un",
+    "description4": "Grado superior en Desarrollo de Aplicaciones Web.",
+    "description5": "En mi corta experiencia laboral en el sector he tenido la oportunidad de trabajar en HeyTrade(Startup sector inversiones) y en SopraHR(Consultora de servicios HR) de la mano de grandes compañeros. ",
+    "description6": "Actualmente estoy buscando una oportunidad laboral en la que pueda construibuir y seguir creciendo en este mundillo."
+  },
+
+  "contact": {
+    "text1": " Si crees que puedo aportar valor a tu empresa puedes...  ",
+    "text2": "¡contactarme!",
+    "text3": "Escríbeme"
+  }
+}

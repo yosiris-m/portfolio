@@ -1,18 +1,26 @@
 
+import { useTranslation } from "react-i18next";
 import styles from "./NavBar.module.scss";
+import { ButtonsLanguage } from "../bootons/bootonsLanguage";
 
 function NavBar({activeLink, onLinkClick}) {
+
+  const { t } = useTranslation();
+
   const navLinks = [
-    { id: 'aboutMe', label: 'Acerca de mí' },
-    { id: 'projects', label: 'Proyectos' },
-    { id: 'tools', label: 'Herramientas' },
-    { id: 'contact', label: 'Contacto' },
+    { id: 'aboutMe', label: t('header.navbar.aboutMe') },
+    { id: 'projects', label: t('header.navbar.projects') },
+    { id: 'tools', label: t('header.navbar.tools') },
+    { id: 'contact', label: t('header.navbar.contact') },
   ];
 
   const showInitLink = navLinks.slice(0).some(link => link.id === activeLink);
   return (
-    <div className={styles.tols}>
+    <div className={styles.box}>
+     <ButtonsLanguage/> 
+  
       <div className={styles.linksBox}>
+    
       {showInitLink && (
           <a
             href="#init"
@@ -32,7 +40,11 @@ function NavBar({activeLink, onLinkClick}) {
             <span>{link.label}</span>
           </a>
         ))}
-      </div>
+ 
+    </div>
+    <div>
+    </div>
+    
     </div>)
 }
 
