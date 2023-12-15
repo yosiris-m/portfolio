@@ -43,8 +43,15 @@
 .BoxDescription {
   font-size: 1rem;
   margin-left: 10px;
+  font-family: $font-family-N;
+  width: 100%;
+  text-align: center;
+  
+  
+
   @media all and (min-width: 1220px) {
     margin-left: 20px;
+    text-align: justify;
   }
 }
 

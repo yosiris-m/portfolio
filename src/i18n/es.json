@@ -9,7 +9,8 @@
       "aboutMe": "Acerca de mí",
       "projects": "Proyectos",
       "tools": "Herramientas",
-      "contact": "Contacto"
+      "contact": "Contacto",
+      "home": "Inicio"
     }
   },
   "sumary": {
@@ -54,8 +55,8 @@
   },
 
   "contact": {
-    "text1": " Si crees que puedo aportar valor a tu empresa puedes...  ",
-    "text2": "¡contactarme!",
+    "text1": " Si crees que puedo aportar valor a tu empresa,",
+    "text2": "¡contactame!",
     "text3": "Escríbeme"
   }
 }

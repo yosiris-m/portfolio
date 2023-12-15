@@ -1,51 +1,56 @@
 .btnbox {
     padding-top: 0.5rem;
     padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+   align-items: center;
 
 }
 
 .btnE{
-  color: rgb(191, 187, 194);
-   margin-right: 1rem;
-   border: none;
-   border-radius: 50%;
-   height: 1.5rem;
-   width: 1.6rem;
-   background-color: #3498db;
+    margin-right: 0.5rem;
    cursor: pointer;
-
-
-   & span {
-   font-size: 0.8rem;
-   }
+   background-color: rgb(77, 74, 74);
+   border: none;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 1.5rem;
+    width: 1.5rem;
 }
 
-.btnS{
- color: rgb(191, 187, 194);
-   font-size: 1rem;
+.photoSp {
+    height: 2.7rem;
+    width: 2.7rem;  
+}
+
+.photoUk {
+    height: 2rem;
+    width: 2rem;  
+}
+
+
+.btnU{
    border: none;
    border-radius: 50%;
-   height: 1.5rem;
-   width: 1.6rem;
-   background-color: #3498db;
-   font-size: 0.8rem;
+   height: 1.3rem;
+   width: 1.3rem;
+   background-color: white;
+  display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .btnE:hover {
-    color: transparent;
-    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
-    background-clip: text;
-    animation: color 3s linear infinite;
-    background-size: 500%;
     border:1px solid rgb(63, 123, 253);
+    border-radius: 50%;
+   
 }
 
 
-.btnS:hover {
-    color: transparent;
-    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
-    background-clip: text;
-    animation: color 3s linear infinite;
-    background-size: 500%;
+.btnU:hover {
     border:1px solid rgb(63, 123, 253);
+    border-radius: 50%;
+   
 }

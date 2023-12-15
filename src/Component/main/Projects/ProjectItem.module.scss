@@ -15,9 +15,11 @@
 
 .img {
   height: 15rem;
+ 
 }
 
 .title {
+  margin: 1rem;
   font-size: 1rem;
   font-family: $font-title;
 }
@@ -46,11 +48,11 @@
 
 .codeGit {
   margin-right: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: $colorLink;
 }
 
 .codePage {
   color: $colorLink;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }

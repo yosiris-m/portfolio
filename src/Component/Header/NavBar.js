@@ -27,7 +27,7 @@ function NavBar({activeLink, onLinkClick}) {
             onClick={() => onLinkClick('init')}
             className={`${activeLink === 'init' ? styles.click : ''}`}
           >
-            <span>Inicio</span>
+            <span>{t('header.navbar.home')}</span>
           </a>
         )}
         {navLinks.map((link) => (

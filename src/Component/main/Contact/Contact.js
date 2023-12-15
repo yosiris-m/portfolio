@@ -7,7 +7,7 @@ function Contact() {
     <section className={styles.wrapper}>
       <p className={styles.msg}>
     {t('contact.text1')}   
-        <strong>{t('contact.text2')} </strong> 😉
+        <span className={styles.contact}>{t('contact.text2')} </span> 😉
       </p>
       <p>
         <a className={styles.btn} href="mailto:yosiris1086@gmail.com">

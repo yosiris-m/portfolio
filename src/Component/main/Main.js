@@ -22,23 +22,23 @@ function Main({ projectsList }) {
      <Header activeLink={activeLink} handleLinkClick={handleLinkClick} />
       <span id="tools" className={`${styles.slide} ${styles.tools}`}></span>
       <div className={styles.tecnoBox}>
-        <h2 className={styles.subtitle}>
+        <p className={styles.subtitle}>
         {t('sumary.tools')}
-        </h2>
+        </p>
         <Technology />
       </div>
       <span id="projects"></span>
-      <h2 className={styles.subtitle}>  {t('sumary.personalProjects')}</h2>
+      <p className={styles.subtitle}>  {t('sumary.personalProjects')}</p>
       <ProjectList projectList={projectsList} />
       <span id="aboutMe"></span>
-      <h2  className={styles.subtitle}>
+      <p  className={styles.subtitle}>
       {t('sumary.aboutMe')}
-      </h2>
+      </p>
       <AboutMe />
 
-      <h2 id="contact" className={styles.subtitle}>
+      <p id="contact" className={styles.subtitle}>
       {t('sumary.contact')}
-      </h2>
+      </p>
       <Contact />
 
       <a href="#init">
