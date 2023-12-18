@@ -1,7 +1,7 @@
 @import "../../styles/core/variables";
 .box{
   width: 100%;
-  background-color: rgb(77, 74, 74);
+  background-image: linear-gradient( rgba(110, 108, 108, 0.997), rgb(95, 94, 95));
   position: fixed;
   top: 0;
   right: 0;
@@ -34,6 +34,7 @@
     text-decoration: none;
     color:  #3498db;
     padding: 0.3rem;
+    font-weight: 400;
     
    
 
