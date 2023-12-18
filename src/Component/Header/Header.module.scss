@@ -2,8 +2,7 @@
 
 .headerBox {
   color: whitesmoke;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 
   @media all and (max-width: 653px) {
     text-align: center;
@@ -11,10 +10,10 @@
 }
 
 .hero {
-  margin-top: 2rem;
+  margin-top: 2.2rem;
   height: 100vh;
-  background: radial-gradient(circle, gray);
-  position: relative;
+  //background: radial-gradient(circle, gray);
+ position: relative;
   min-height: 34rem;
 
   @media all and (max-width: 653px) {
@@ -23,10 +22,9 @@
 
   @media all and (min-width: 768px) {
     display: flex;
-    justify-content: space-around;
     margin-top: 0;
     flex-direction: row;
-    margin-right: 4rem;
+   justify-content: left;
   }
 }
 
@@ -39,11 +37,13 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
     align-items: center;
-    margin-right: 2rem;
+    margin-top: 2rem;
   }
 }
 .webTitle {
   font-size: 1.2rem;
+  margin-top: 0;
+
 }
 
 .title {
@@ -51,6 +51,7 @@
   padding-top: 3rem;
   margin-bottom: 1rem;
   height: 2rem;
+  width: 20rem;
   font-size: 3rem;
   font-family: $font-title;
   color: transparent;
@@ -66,11 +67,12 @@
   animation: color 3s linear infinite;
   background-size: 500%;
 
-  @media all and (max-width: 667px) {
+  @media all and (width: 667px) {
     padding-top: 0;
     font-size: 2rem;
   }
   @media all and (min-width: 768px) {
+    margin-bottom: 2rem;
     padding-top: 1rem;
     font-size: 3rem;
   }
@@ -90,32 +92,39 @@
   height: 13rem;
   width: 13rem;
   border-radius: 50%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 
   @media all and (min-width: 768px) {
-    height: 14rem;
-    width: 14rem;
-    margin-left: 6rem;
-    margin-top: 0;
+    margin-top: 6rem;
+    position: absolute;
+    right: 10rem;
+    top: 14rem;
   }
 
-  @media all and (max-width: 653px) {
+  @media all and (min-width: 769px) and (max-width: 2200px) {
+    top: 18rem;
+  }
+
+  @media all and (min-width: 653px) {
     height: 12rem;
     width: 12rem;
   }
 }
 
+.name{
+ margin-top: 2rem;
+
+}
 .descript {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 6rem;
+  width: 100%;
 
   @media all and (min-width: 768px) {
-    margin-top: 0;
-    margin-right: 5rem;
-    margin-left: 1rem;
+    margin-top: 1rem;
   }
 }
 
@@ -129,5 +138,13 @@
   @media all and (min-width: 768px) {
     width: 27.5rem;
     font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  @media all and (min-width: 769px) and (max-width: 2200px) {
+    margin-top: 2rem;
   }
 }
+
+
+

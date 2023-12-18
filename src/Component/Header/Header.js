@@ -14,6 +14,7 @@ function Header({activeLink, handleLinkClick}) {
           <div className={styles.titlename}>
             <div className={styles.descript}> 
               <h1 className={styles.title}>{t('header.title')}</h1>
+              <img className={styles.photo} src={photo} alt="Yosiris face" />
               <p className={styles.name}><i>{t('header.content')}</i></p>
               <p className={styles.webTitle}>
                 <strong>{t('header.profession')}</strong>
@@ -22,7 +23,7 @@ function Header({activeLink, handleLinkClick}) {
               {t('header.description')}
               </i>
             </div>
-            <img className={styles.photo} src={photo} alt="Yosiris face" />
+         
           </div>
           <LinkContact /> 
         </div> 
